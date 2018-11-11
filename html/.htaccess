@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP:X-HTTPS} !1
+RewriteCond %{REQUEST_URI} !robots.txt
+RewriteRule ^(.*)$ https://goodvard.ru/$1 [R=301,L]

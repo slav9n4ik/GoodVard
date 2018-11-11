@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<meta name="yandex-verification" content="fa5d254b5e9f7729" />
+	<meta name="google-site-verification" content="aXPrbARdqcANKsdN3nv_1SziXg2ew9AgozZDXKEWkfY" />
+		<!-- BASICS -->
+        <meta charset="utf-8">
+		<!-- <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'> -->
+        <title>Goodvard School</title>
+        <meta name="description" content="">
+		<!-- MOBILE METAS -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- WEB FONTS  -->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>	
+		<!-- ICON FONT -->
+		<link href="fonts/fontawesome/css/font-awesome.css" rel="stylesheet">
+		<link href="fonts/lineicons/css/lineicons.css" rel="stylesheet">
+		<!--LIB CSS -->
+		<link rel="stylesheet" href="mailchimp/css/default.css"  type="text/css" />		
+		<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="js/owl/owl.carousel.css">
+        <link rel="stylesheet" href="js/owl/owl.theme.css">
+		<!-- TEMPLATE STYLES -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" id="mainstyle" href="css/main.css">
+        <link rel="stylesheet" href="css/animation.css">
+        <!-- contact form -->
+        <!-- <link rel="stylesheet" href="feedback/vendors/bootstrap/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="feedback/vendors/jgrowl/jquery.jgrowl.min.css">
+        <link rel="stylesheet" href="feedback/css/main.css">
+    </head>
+	 
+    <body>
+
+	<!--[if lt IE 7]>
+	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+	<![endif]-->
+	 
+	 <div class="content" >
+
+		<section id="home" class="appear"></section>
+		<div class="navbar navbar-fixed-top" data-0="line-height:160px; height:160px; background-color:rgba(0,0,0,0);" data-300="line-height:60px; height:60px; background-color:rgba(29,33,37,1);">
+			 <div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="fa fa-reorder icon resp-menu"></span>
+					
+					</button>
+					<a class="navbar-brand" href="#" data-0="line-height:130px;" data-300="line-height:56px;"><img data-0="width:72px;" data-300=" width:50px;" src="img/logo_bee.png" alt="stylio theme"/></a>
+				</div>
+				
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav" data-0="margin-top:40px;" data-300="margin-top:1px;" id = "navbar">
+
+						<li class="colored active"><a href="#home">Главная</a><div class="hover colored-bg"></div></li>
+						<li class="colored"><a href="#howto">Преимущества</a><div class="hover colored-bg"></div></li>
+						<li class="colored"><a href="#pricing">Цены</a><div class="hover colored-bg"></div></li>
+						<li class="colored"><a href="#reviews">Фото</a><div class="hover colored-bg"></div></li>
+						<li class="colored"><a href="#use">Команда</a><div class="hover colored-bg"></div></li>
+						<li class="colored"><a href="#download">Контакты</a><div class="hover colored-bg"></div></li>
+						<li class="colored"><a href="tel:+7(964)784-99-36">+7(964)784-99-36</a><div class="hover colored-bg"></div></li>
+					</ul>
+				</div><!--/.navbar-collapse -->
+				<div class="container">
+					<div class="icon-bar" >
+						    <div class="social clearfix"> 
+								<a href="https://www.instagram.com/_goodvard/?hl=ru" class="instagram sh md-icon "><i class="fa fa-instagram   fa-25"></i></a>
+						    
+								<a href="https://vk.com/goodvard" class="md-icon sh vk"><i class="fa fa-vk  fa-25"></i></a>
+							
+								<a href="https://www.youtube.com/channel/UCKNHkLr2lUDWNPfcLdbrYog" class="youtube sh md-icon"><i class="fa fa-youtube  fa-25"></i></a>			
+							</div>	  
+					</div>
+					<div class="icon-phone" >
+						 <a href="tel:+7(964)784-99-36" class="phone "><i class="fa fa-phone fa-ph"></i></a>
+					</div>
+				</div>
+			</div> 
+		</div>
+		
+
+		<div class="fullwidthbanner-container overlay-fix">
+			<div class="top-overlay" ></div>
+		    <div class="fullwidthbanner" data-0="background-position:0px 0px;" data-end="background-position:0px 600px;" >
+				<div class="col-sm-12 header-area" >
+					<div class="row">
+						<div class="col-sm-5 col-sm-offset-2 resp-center header animate animate_aft " id="btn-scroll">
+							<img class="header-img" src="img/logo_goodvard.png" alt="Stylio app"/>
+							<p class="header-txt">Друзья, приглашаем в нашу маленькую страну GoodVard на нескучные занятия английским. Запись на новый учебный год открыта, торопитесь, мест осталось совсем мало!</p>
+							<a class="top-download btn btn-default btn-lg clikblock">ЗАПИСАТЬСЯ</a>
+						</div>							
+						<div class="col-sm-5 animate animate_afb">
+							<div class="phone-holder">
+								<a class="header-video-link video" href="https://www.youtube.com/watch?v=TAbu0oY33Gc"> <span class="lg-icon"><i class="fa fa-play fa-2"></i></span></a>
+								<img class="phone-in-hand" src="img/logo_bee.png" alt="Stylio video"/>
+							</div>
+						</div>	
+					</div>	
+				</div>
+			</div>
+		</div>
+		
+		<!-- HOWTO -->
+		<div class="row colored-bg">
+				<section id="howto" class="appear">
+					<div class="col-sm-8 col-sm-offset-2" >
+						<div class="col-sm-4 center item animate animate_afl">
+							<h4>1. Экспересс-Обучение</h4>
+							<p>Результат уже через пять занятий.    Бонус: видеоотчеты родителям</p>
+							<div class="lg-wrap">
+								<span class="lg-icon no-border features-one"><i class="linicon-videocam fa-35"></i></span>
+							</div>
+						</div> 	
+						<div class="col-sm-4 center item animate animate_afb">
+							<h4>2. Длительность занятий</h4>
+							<p>Для качественного усвоения знаний занятие длится 90 мин.</p>
+							<div class="lg-wrap">
+								<span class="lg-icon no-border features-two"><i class="linicon-clock fa-35"></i></span>
+							</div>
+						</div>
+						<div class="col-sm-4 center item animate animate_afr">
+							<h4>3. Игровая методика</h4>
+							<p>Песни, сценки, танцы, игры и многое другое. Все на английском.</p>
+							<div class="lg-wrap">
+								<span class="lg-icon no-border features-three"><i class="linicon-star fa-35"></i></span>
+							</div>
+						</div> 
+					</div> 
+					<div align="center">
+						<a href="https://www.youtube.com/playlist?list=PLppoU-yn2lOUEcH8r1hEiUNhAMSYjMaim" class="btn-align btn btn-default btn-lg">Посмотреть видеоотчеты</a>
+					</div>
+				</section>
+		</div>	
+		
+		<div class="container" id = "price">
+			<!-- PRICING -->
+			<div class="row" >
+				<div class="col-md-6 col-md-offset-3 center head-title">
+					<h2 class="big-title">Цены</h2>
+					<div class="big-line center"><span style="margin: 0 auto;"></span></div>
+					<p>Подбери свой тариф, заполни форму, и погрузись в мир английского языка!</p>
+				</div>
+			</div>
+			<div class="row">
+					<section id="pricing" class="appear">
+						<div class="col-sm-3">
+							<div class="package center clearfix animate animate_aft">
+								<h2 class="colored">Для дошкольников</h2>
+								<h1 class="price">4.800<sup class="small">руб.</sup></h1>
+									<span class="term">за месяц</span>
+									<ul class="features">
+										<li>от 5 лет</li>
+										<li>2 раза в неделю</li>
+										<li>90 мин.</li>
+									</ul>
+								<button id = "book1" type="button" class="btn btn-primary btn-md colored clikblock ">Записаться!</button> 
+							</div>
+						</div>                
+						
+						<div class="col-sm-3">
+							<div class="package inverted center clearfix animate animate_afl">
+								<h2 class="colored">Для школьников</h2>
+								<span class="highlight">Популярный</span>
+								<h1 class="price">4.800<sup class="small">руб.</sup></h1>
+									<span class="term">за месяц</span>
+									<ul class="features">
+										<li>от 7 лет</li>
+										<li>2 раза в неделю</li>
+										<li>90 мин.</li>
+									</ul>
+								<button id = "book2" type="button" class="btn btn-primary btn-md colored clikblock">Записаться!</button>
+							</div>
+						</div>  				
+						
+						<div class="col-sm-3">
+							<div class="package center clearfix animate animate_afr">
+								<h2 class="colored">Детский сад</h2>
+								<h1 class="price">10.000<sup class="small">руб.</sup></h1>
+									<span class="term">за месяц</span>
+									<ul class="features">
+										<li>3 раза в неделю</li>
+										<li>4 часа</li>
+										<li>Театральная студия</li>
+										<li>на второго ребенка скидка 30%</li>
+									</ul>
+								<button id = "book3" type="button" class="btn btn-primary btn-md colored clikblock">Записаться!</button>
+							</div>
+						</div>  				
+						
+						<div class="col-sm-3">
+							<div class="package center clearfix animate animate_afb">
+								<h2 class="colored">Индивидуальные занятия</h2>
+								<h1 class="price">600<sup class="small">руб.</sup></h1>
+									<span class="term">за занятие</span>
+									<ul class="features">
+										<li>2 раза в неделю</li>
+										<li>60 мин.</li>
+									</ul>
+								<button id = "book4" type="button" class="btn btn-primary btn-md colored clikblock">Записаться!</button>
+							</div>
+						</div>
+					</section>
+			</div>
+		</div>
+
+			
+			<!-- BRANDS -->
+			<div class="row colored-bg">
+				<section id="brands">
+						<div class="col-sm-8 col-sm-offset-2">
+				
+								<div class="col-sm-3 center animate animate_aft">
+									<img alt="logo" src="img/logo_bee.png">
+								</div>											
+													
+								<div class="col-sm-3 center animate animate_afb">
+									<img alt="logo" src="img/logo_bee.png">
+								</div>											
+													
+								<div class="col-sm-3 center animate animate_aft">
+									<img alt="logo" src="img/logo_bee.png">
+								</div>											
+													
+								<div class="col-sm-3 center animate animate_afb">
+									<img alt="logo" src="img/logo_bee.png">
+								</div>									
+								
+						</div>
+				</section>
+			</div>	
+		
+		
+			<!-- Акции id = screanshot -->
+			<div class="container">
+				<div class="row no-offset">
+					<section id="screenshots" class="appear">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 center head-title">
+								<h2 class="big-title">Акции</h2>
+								<div class="big-line center"><span style="margin: 0 auto;"></span></div>
+								<p>Не пропути! Время акции ограничено!</p>
+							</div>
+						</div>
+						<div class="row">
+							<div id="owl-demo">
+								<div class="item"><img src="img/slides/screen-1.jpg" alt="Owl Image"></div>
+								<div class="item"><img src="img/slides/screen-2.jpg" alt="Owl Image"></div>
+								<div class="item"><img src="img/slides/screen-3.jpg" alt="Owl Image"></div>
+								<div class="item"><img src="img/slides/screen-1.jpg" alt="Owl Image"></div>
+								<div class="item"><img src="img/slides/screen-2.jpg" alt="Owl Image"></div>
+								<div class="item"><img src="img/slides/screen-3.jpg" alt="Owl Image"></div>
+								<div class="item"><img src="img/slides/screen-1.jpg" alt="Owl Image"></div>
+								<div class="item"><img src="img/slides/screen-2.jpg" alt="Owl Image"></div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		
+			<!-- Photos and Video -->
+			<div class="row no-offset reviews-bg">
+				<section id="reviews" class="appear">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 center head-title">
+							<h2 class="big-title">Фото</h2>
+							<div class="big-line center"><span style="margin: 0 auto;"></span></div>
+							<p>Летний лагерь! Две незабываемые и яркие смены!</p>		
+						</div>
+					</div>
+					<div class="container">
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1122.JPG"> 
+		    					<img class="img-responsive" src="img/gal/IMG_1122.JPG" /></a>
+		    			</div> 
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1123.JPG"> 
+		    					<img class="img-responsive" src="img/gal/IMG_1123.JPG" /></a>
+		    			</div> 
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1124.JPG"> 
+		    					<img class="img-responsive" src="img/gal/IMG_1124.JPG" /></a>
+		    			</div>
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1126.JPG"> 
+		    					<img class="img-responsive" src="img/gal/IMG_1126.JPG" /></a>
+		    			</div>
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1127.JPG"> 
+		    					<img class="img-responsive" src="img/gal/IMG_1127.JPG" /></a>
+		    			</div> 
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1128.JPG"> 
+		    					<img class="img-responsive" src="img/gal/IMG_1128.JPG" /></a>
+		    			</div> 
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1129.JPG"> 
+		    				<img class="img-responsive" src="img/gal/IMG_1129.JPG" /> </a>
+		    			</div>
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb">
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1130.JPG"> 
+		    					<img class="img-responsive" src="img/gal/IMG_1130.JPG" /></a> 
+		    			</div>
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1131.JPG"> 
+		    					<img class="img-responsive" src="img/gal/IMG_1131.JPG" /></a>
+		    			</div> 
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1132.JPG"> 
+		    					<img class="img-responsive" src="img/gal/IMG_1132.JPG" /> </a>
+		    			</div> 
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1133.JPG"> 
+		    					<img class="img-responsive" src="img/gal/IMG_1133.JPG" /> </a>
+		    			</div>
+		    			<div class="col-md-3 col-sm-4 col-xs-6 thumb">
+		    				<a class="fancyimage" data-fancybox-group="group" href="img/gal/IMG_1134.JPG"> 
+		    					<img class="img-responsive" src="img/gal/IMG_1134.JPG" /> </a>
+		    			</div>
+    			</div>
+				</section>
+				<div class="col-md-6 col-md-offset-3 center head-title">
+					<div class="big-line center"><span style="margin: 0 auto;"></span></div>
+					<h1 class="big-titlephoto">Больше фото и видео смотрите в нашей группе в вконтакте и инстаграме!</h1>
+				</div>
+				<div class="row icon-row">
+						    <div class="col-xs-4 col-xs-offset-1"> 
+								<a href="https://www.instagram.com/_goodvard/?hl=ru" class="instagram md-icon"><i class="fa fa-instagram fa-inst"></i></a>
+						    </div>
+						    <div class="col-xs-4"> 
+								<a href="https://vk.com/goodvard" class="vk md-icon"><i class="fa fa-vk fa-vkk"></i></a>
+							</div>
+							<div class="col-xs-4"> 
+								<a href="https://www.youtube.com/channel/UCKNHkLr2lUDWNPfcLdbrYog" class="youtube md-icon"><i class="fa fa-youtube fa-yout"></i></a>			
+							</div>	  
+					</div>
+			</div>				
+
+		<!-- USE -->
+			<div class="row no-offset image-bg image2">
+				<section id="use" class="appear overlay-fix">
+				<div class="overlay"></div>
+						<div class="row faces no-offset">
+							<h3 class="center">WHO IS <span class="colored">GOODVARD</span> ?</h3>
+							<div class="col-sm-10 col-sm-offset-2">
+								<div class="col-sm-5 holder animate animate_afc">
+									<div class="center">
+										<div class="toggle-profile">
+											<img alt="team" src="img/people/face1.png" class="img-circle md-pic"/>
+										</div>
+										<h4>Светлана Афанасьева</h4>
+										<span class="title">Основатель, учитель</span>
+										<div class="line-wrap center">
+											<div class="big-line center"><span></span></div>
+										</div>
+										<p>Я родилась в семье учителей, поэтому сомнений в выборе профессии не было. Живу своей работой, каждый мой урок- маленькая история,непохожая на предыдущую, которую мы проживаем вместе с детьми. Главное в профессии учителя, на мой взгляд, постоянно развиваться и совершенствоваться, идти в ногу со временем, и конечно же, набираться опыта. Не каждый учитель сможет заинтересовать, увлечь и при этом показать отличный результат. К слову, мой педагогический стаж- 6 лет. С самого первого курса педагогического института я начала работать репетитором. Окончила МГОУ с отличием и в этом году заканчиваю магистратуру. Goodvard для меня- маленький мир, в который я вкладываю все силы и душу.</p>
+									</div>
+								</div>	
+								<div class="col-sm-5 holder animate animate_afc">
+									<div class="center">
+										<div class="toggle-profile">
+											<img alt="team" src="img/people/face2.png" class="img-circle md-pic"/>
+										</div>
+										<h4>Светлана Мягкова</h4>
+										<span class="title">Учитель</span>
+										<div class="line-wrap">
+											<div class="big-line center"><span></span></div>
+										</div>
+										<p>Люблю не только изучать иностранные языки, но и работать с детьми, особенно преподавать им иностранный язык, поэтому решила поступить в МГОУ (областной), который окончила с отличием, получив бакалаврскую и магистерскую степени.
+										Мой педагогический стаж составляет – 5 лет в качестве репетитора и педагога детского центра.
+										Считаю, что английский язык помогает открывать нам мир. Несколько раз я становилась волонтером и работала с детьми в Германии и Швейцарии.
+										Мой девиз: „Любовь — самая мощная целительная сила в мире“.</p>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+				</section>
+			</div>
+			<!-- DOWNLOAD -->
+			<div class="row no-offset image-bg image4 stopblock">
+				<section id="download" class="overlay-fix appear">
+				<div class="overlay"></div>
+						<div class="row download no-offset">
+							<h3 class="center">КОНТАКТЫ </h3>
+							<div class="line-wrap">
+								<div class="big-line center"><span></span></div>
+							</div>
+
+							<div class="col-sm-4 col-sm-offset-1">
+								<h3>АДРЕС: </h3>
+								<p>г.Жуковский, ул.Гудкова, дом 16</p>
+								<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abd46988088b195622147acbb9e9f65a4e59de8b6f684729543c032b0d8db026d&amp;width=310&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>							
+							</div>
+
+							<div class="col-sm-3">
+									<h3 class="h_contact">График: </h3>
+								<p>Пн-Пт: 10:00 - 20:00</p>
+								<p>Сб-Вс: Выходной</p>
+
+								<h3>Телефон: </h3>
+								<p>+7(964)784-99-36</p>
+								<p>What'sUp/Telegram/Viber</p>
+								<p>(В любое время)</p>
+							</div>
+
+							<div class="col-sm-4">
+								<h3 class="p1">Фото входа</h3>
+								<a class="fancyimage" data-fancybox-group="group" href="img/backgrounds/bg-contact.jpg"> 
+								<img class = "contacts_photo" src="img/backgrounds/bg-contact.jpg" ></a>	
+							</div>
+								
+							
+						
+						</div>
+
+				</section>
+			</div>
+
+	</div> <!-- /content -->
+
+	<!-- FOOTER -->
+	<footer id="footer" class="row footer colored-bg image-footer" >
+		<div class="row ">
+			
+	         <div class="col-sm-4 col-sm-offset-7"> 
+	            <div class="panel panel-success">
+	                <div class="panel-body">			
+						<div class="panel-heading">
+	                    	<h2 class="h3 panel-title">Запись</h2>
+	                	</div>
+	                    <!-- Форма обратной связи -->
+	                    <form id="feedbackForm" action="/feedback/process/process.php" enctype="multipart/form-data" novalidate>	                          
+							<div class="row">
+	      						<div class="col-sm-6">
+	      							<!-- Имя пользователя -->
+		              				<div class="form-group has-feedback">
+		                    			<label for="name" class="control-label">Имя</label>
+		                           		<input id="name" type="text" name="name" class="form-control"
+		                           		value="" placeholder="Имя" minlength="2" required="required">
+		                           		<span class="glyphicon form-control-feedback"></span>
+		              				</div>
+	      						</div>
+	      						
+	      						<div class="col-md-6">
+	      							<!-- Phone namber -->
+	        						<div class="form-group has-feedback">
+		                                <label for="phone" class="control-label">Телефон</label>
+		                                <input type="text" name="phone" class="form-control" value="" maxlength="16" placeholder="Телефон">
+		                                <span class="glyphicon form-control-feedback"></span>
+		                            </div>
+	      						</div>
+    						</div>
+  	
+							<div class="row">
+      							<!-- Email пользователя -->
+	      						<div class="col-md-12">
+		       						<div class="form-group has-feedback">
+		          						<label for="email" class="control-label">Email-адрес</label>
+		               					<input id="email" type="email" name="email" required="required"
+		                   				class="form-control"
+		                      			value="" placeholder="Email-адрес">
+		              					<span class="glyphicon form-control-feedback"></span>
+		            				</div>	
+	            				</div>			
+							</div>
+
+							<div class="row">
+  								<!-- Сообщение пользователя -->
+  								<div class="col-md-12">
+			                        <div class="form-group has-feedback ">
+			                            <label for="message" class="control-label">Сообщение (не менее 20 символов)</label>			                            
+			                            <textarea id="message" name="message" class="form-control"
+			                            rows="3" placeholder="Сообщение (не менее 20 символов)" minlength="20"
+			                            maxlength="500" required="required"></textarea>
+			                        </div>
+		                    	</div>
+		                    	<div class="col-md-12">
+	  								<!-- Пользовательское солашение -->
+			                        <div class="checkbox">
+			                            <label>
+			                                <input type="checkbox" name="agree"> Нажимая кнопку, я принимаю условия
+			                                <a href="https://dentalweek.ru/soglash" style="color: blue">Пользовательского соглашения</a> и даю своё согласие на обработку моих
+			                                персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О
+			                                персональных
+			                                данных».
+			                            </label>
+			                        </div>
+		                    	</div>
+							</div>
+
+							
+
+							<div class="row">
+  								<!-- Кнопка для отправки формы -->
+		                        <button type="submit" class="btn btn-success pull-right" disabled="disabled">Отправить
+		                            сообщение
+		                        </button>
+							</div>
+
+	                        <!-- Индикация загрузки данных формы на сервер -->
+	                        <div class="clearfix"></div>
+	                        <div class="progress" style="display:none; margin-top: 20px;">
+	                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+	                                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0">
+	                                <span class="sr-only">0%</span>
+	                            </div>
+	                        </div>
+	                        <div class="clearfix"></div>
+
+	                    </form>
+
+	                    <!-- Сообщение об успешной отправки формы -->
+	                    <div class="alert alert-warning success-message hidden">
+	                        Форма успешно отправлена. Нажмите на <a style="color: blue" class="show-form" href="#">ссылку</a>, чтобы отправить ещё одно сообщение.
+	                    </div> 
+
+	                </div>
+	            </div>
+	   </div>
+	   </div> 		
+					
+		<div class="col-sm-8 col-sm-offset-2">
+			<p class="copy">&copy; 2018 sLav9n4ik Media</p>
+		</div>
+	</div> 
+	</footer>
+
+
+	<!-- MODERNIZR -->		
+	<!-- <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
+	<script src="js/vendor/modernizr-custom.js"></script>
+	<!-- JQUERY -->
+	<script src="js/vendor/jquery-3.3.1.min.js"></script> 
+	<!-- <script src="feedback/vendors/jquery/jquery-3.1.1.min.js"></script> -->
+	<!-- BOOTSTRAP -->
+      <script src="js/vendor/bootstrap.min.js"></script>
+	<!-- SKROLLR PLUGIN -->
+	<script type="text/javascript" src="js/skrollr/skrollr.min.js"></script>	
+	<!-- THE FANYCYBOX ASSETS -->
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>	
+	<!-- MAILCHIMP PLUGIN -->
+	<script type="text/javascript" src="mailchimp/js/mailing-list.js"></script>
+	<!-- SROLLTO PLUGIN -->
+	<script type="text/javascript" src="js/scrollTo/jquery.scrollTo-1.4.3.1-min.js"></script> 
+	 <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>  -->
+	<script type="text/javascript" src="js/scrollTo/jquery.localScroll.min.js"></script> 
+	<script type="text/javascript" src="js/appear/jquery.appear.js"></script>
+	<!-- AJAX CONTACT FORM PLUGIN -->
+	<script src="feedback/vendors/jgrowl/jquery.jgrowl.min.js"></script>
+	<script src="feedback/vendors/mask/jquery.mask.min.js"></script>
+	<script src="feedback/js/main.js"></script>
+	<!-- OWL CAROUSEL PLUGIN -->
+    <script src="js/owl/owl.carousel.min.js"></script>
+	<!-- THEME PLUGINS -->
+	<script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Photo -->
+    <script src="js/vendor/gridify/gridify.js"></script>
+    <!-- Popper -->
+	<script src="js/vendor/popper.min.js"></script>
+	<!--ICONS -->
+	<script src="https://cdn.jsdelivr.net/npm/goodshare.js@5.1.1/goodshare.min.js"></script>
+
+
+
+		<!-- GOOGLE ANALYTICS -->
+    <script>
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+    <!-- Yandex.Metrika counter --> 
+    <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter50004856 = new Ya.Metrika2({ id:50004856, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); 
+	</script> 
+	<noscript><div><img src="https://mc.yandex.ru/watch/50004856" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript> 
+	<!-- /Yandex.Metrika counter -->
+	</body>
+</html>
