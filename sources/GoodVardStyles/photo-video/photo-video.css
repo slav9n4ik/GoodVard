@@ -1,0 +1,234 @@
+@charset "utf-8";
+	.st
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 16px;
+	text-transform : uppercase;
+	color : #FAF2F3;
+	color : rgb(250, 242, 243);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.photo_3_
+{
+	background-image : url(photo_3_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1302px;
+	top : 3856px;
+	width : 201px;
+	height : 201px;
+}
+.photo_8_
+{
+	background-image : url(photo_8_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1082px;
+	top : 3636px;
+	width : 201px;
+	height : 201px;
+}
+.photo_11_
+{
+	background-image : url(photo_11_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 862px;
+	top : 3856px;
+	width : 201px;
+	height : 201px;
+}
+.photo_5_
+{
+	background-image : url(photo_5_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1082px;
+	top : 4296px;
+	width : 201px;
+	height : 201px;
+}
+.photo_12_
+{
+	background-image : url(photo_12_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 422px;
+	top : 3856px;
+	width : 201px;
+	height : 201px;
+}
+.photo_1_
+{
+	background-image : url(photo_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1302px;
+	top : 4296px;
+	width : 201px;
+	height : 201px;
+}
+.photo_9_
+{
+	background-image : url(photo_9_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 862px;
+	top : 4296px;
+	width : 201px;
+	height : 201px;
+}
+.photo_7_
+{
+	background-image : url(photo_7_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1082px;
+	top : 3856px;
+	width : 201px;
+	height : 201px;
+}
+.photo_10_
+{
+	background-image : url(photo_10_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 862px;
+	top : 4076px;
+	width : 201px;
+	height : 201px;
+}
+.photo_15_
+{
+	background-image : url(photo_15_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 642px;
+	top : 3856px;
+	width : 201px;
+	height : 201px;
+}
+.photo-video-bg
+{
+	background : #A13323;
+	background : rgba(161, 51, 35, 1);
+	opacity : 0.9;
+	position : absolute ;
+	left : 402px;
+	top : 3616px;
+	width : 1120px;
+	height : 900px;
+	border-radius : 8px;
+	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.photo_4_
+{
+	background-image : url(photo_4_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1302px;
+	top : 3636px;
+	width : 201px;
+	height : 201px;
+}
+.photo_6_
+{
+	background-image : url(photo_6_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1082px;
+	top : 4076px;
+	width : 201px;
+	height : 201px;
+}
+.photo_2_
+{
+	background-image : url(photo_2_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1302px;
+	top : 4076px;
+	width : 201px;
+	height : 201px;
+}
+.photo_17_
+{
+	background-image : url(photo_17_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 422px;
+	top : 4296px;
+	width : 201px;
+	height : 201px;
+}
+.photo
+{
+	background-image : url(photo.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 422px;
+	top : 3636px;
+	width : 201px;
+	height : 201px;
+}
+.photo_13_
+{
+	background-image : url(photo_13_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 642px;
+	top : 4296px;
+	width : 201px;
+	height : 201px;
+}
+.photo_19_
+{
+	background-image : url(photo_19_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 862px;
+	top : 3636px;
+	width : 201px;
+	height : 201px;
+}
+.photo_14_
+{
+	background-image : url(photo_14_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 642px;
+	top : 4076px;
+	width : 201px;
+	height : 201px;
+}
+.photo_16_
+{
+	background-image : url(photo_16_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 642px;
+	top : 3636px;
+	width : 201px;
+	height : 201px;
+}
+.photo_18_
+{
+	background-image : url(photo_18_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 422px;
+	top : 4076px;
+	width : 201px;
+	height : 201px;
+}
+.photo-video-main-bg
+{
+	background-image : url(photo-video-main-bg.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 0px;
+	top : 3547px;
+	width : 1920px;
+	height : 1050px;
+}

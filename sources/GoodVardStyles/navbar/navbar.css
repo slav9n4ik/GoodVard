@@ -1,0 +1,31 @@
+@charset "utf-8";
+	.st
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 21px;
+	text-transform : uppercase;
+	color : #F2F2F2;
+	color : rgb(242, 242, 242);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar-bg
+{
+	background : #231F20;
+	background : rgba(35, 31, 32, 1);
+	position : absolute ;
+	left : 0px;
+	top : 120px;
+	width : 1920px;
+	height : 50px;
+}
+.navbar-selected
+{
+	background : #FF0700;
+	background : rgba(255, 7, 0, 1);
+	position : absolute ;
+	left : 518px;
+	top : 119px;
+	width : 151px;
+	height : 50px;
+}

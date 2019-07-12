@@ -1,0 +1,74 @@
+@charset "utf-8";
+.st
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 17px;
+	color : #000000;
+	color : rgb(0, 0, 0);
+}
+.st1
+{
+	font-family : Font Awesome 5 Brands;
+	font-size : 23px;
+	color : #231F20;
+	color : rgb(35, 31, 32);
+}
+.header-bg
+{
+	background : #FDDC70;
+	background : rgba(253, 220, 112, 1);
+	position : absolute ;
+	left : 0px;
+	top : 0px;
+	width : 1920px;
+	height : 120px;
+}
+.st3
+{
+	font-family : Font Awesome 5 Brands;
+	font-size : 23px;
+	color : #231F20;
+	color : rgb(35, 31, 32);
+}
+.st2
+{
+	font-family : Font Awesome 5 Brands;
+	font-size : 22px;
+	line-height : 29.21px;
+	color : #231F20;
+	color : rgb(35, 31, 32);
+}
+.st5
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 14px;
+	text-transform : uppercase;
+	color : #FAF2F3;
+	color : rgb(250, 242, 243);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.line-header
+{
+	background : #231F20;
+	background : rgba(35, 31, 32, 1);
+	border-style : Solid;
+	border-color : #231F20;
+	border-color : rgba(35, 31, 32, 1);
+	border-width : 0px;
+	position : absolute ;
+	left : 1489px;
+	top : 13px;
+	width : 0px;
+	height : 92px;
+}
+.st4
+{
+	font-family : Bahnschrift;
+	font-weight : bold;
+	font-size : 28px;
+	color : #231F20;
+	color : rgb(35, 31, 32);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}

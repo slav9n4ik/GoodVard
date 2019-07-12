@@ -1,0 +1,92 @@
+/* Main navbar css */
+#navbar {
+    position: fixed;
+    top: 120px;
+    width: 100%;
+
+    background-color: #231F20 !important;
+    transition: all 0.5s;
+}
+
+/* After scroll 50px */
+.navbar-up {
+    /* margin-top: 0 !important; */
+    top: 60px !important;
+}
+
+/* Display icon only on mobile */
+#navbar .navbar-brand {
+    display: none;
+}
+
+/* Text style of items */
+#navbar a {
+    color: #f2f2f2;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+
+    margin: 0px 25px -3px 25px;
+}
+
+/* Text hover */
+#navbar a:hover {
+    color: #FF0700;
+}
+
+/* Text active */
+#navbar .active>.hover {
+    background-color: #FF0700;
+    width: 75%;
+    height: 4px;
+    margin: 0 auto;
+}
+
+/* Image brand shadow */
+#navbar img {
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+}
+
+#navbar button {
+    color: #231F20;
+}
+
+@media (max-width: 960px) {
+    #navbar {
+        top: 0 !important;
+        background-color: #FDDC70 !important;
+    }
+
+    #navbar a {
+        text-align: center;
+    }
+
+    #navbar .active>.hover {
+        width: 40%;  
+        background-color: #A13323;  
+    }
+
+    /* Text hover */
+    #navbar a:hover {
+        color: #A13323;
+    }
+
+    #navbar .navbar-brand {
+        display: block;
+    }
+}
+
+@media (max-width: 1140px) {
+    #navbar a {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 1340px) {
+    #navbar a {
+        margin: 0 10px 0 10px;
+    }
+}

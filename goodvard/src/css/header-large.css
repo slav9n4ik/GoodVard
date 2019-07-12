@@ -1,0 +1,100 @@
+/* Анимация при проскроливании */
+.header-up {
+	top: -120px !important;
+}
+
+/* Основной фон большого заголовка */
+.header-bg
+{
+	background-color : #FDDC70;
+	position: fixed;
+	width : 100%;
+	height : 120px;
+	top: 0;
+	transition: top 0.5s;
+	z-index: 1;
+}
+
+/* Иконка пчелки и текста */
+.logo {
+	filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.5));
+}
+
+/*Блок с номером телефона и кнопкой в большом заголовке*/
+.header-phone-block {
+	text-align: center;
+	width: 300px;
+	margin-left: 180px; 
+}
+
+/* Номер телефона в больщом заголовке */
+.phone-number
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 26px;
+	color : #000000;
+	color : rgb(0, 0, 0);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+/* Кнопка записи в большом заголовке */
+.note-button
+{
+	background-color: #FF0700;
+	border: solid;
+	border-width: 0px;
+	border-radius: 6px;
+	padding: 10px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.50);
+
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 14px;
+	text-transform : uppercase;
+	color : #FAF2F3;
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.50);
+	
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+/* Разделяющая линия в большом заголовке */
+.line-header
+{
+	background : #231F20;
+	border-style : Solid;
+	border-radius: 2px;
+	border-color : #231F20;
+	border-width : 1px;
+	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+
+	/* width : 3px; */
+	height : 70px;
+}
+
+/* Блок с иконками в большом заголовке */
+.ul-icons {
+	margin: 0;
+	padding: 0;
+	display: block;
+	list-style-type: none;
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+	/* white-space: nowrap; */
+}
+
+/* Стили иконок в большом заголовке */
+.social-icon {
+	text-align: center;
+	font-size : 24px;
+	color : #231F20;
+}
+
+/* Иконка инстаграма в большом заголовке */
+.inst-icon {
+	font-size : 28px;
+}
+

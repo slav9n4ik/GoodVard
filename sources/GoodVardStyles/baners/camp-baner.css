@@ -1,0 +1,42 @@
+@charset "utf-8";
+	.camp-baner-bg
+{
+	background-image : url(camp-baner-bg.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 6071px;
+	top : 169px;
+	width : 1921px;
+	height : 801px;
+}
+.blackout_1_
+{
+	background : #000000;
+	background : rgba(0, 0, 0, 1);
+	opacity : 0.1;
+	position : absolute ;
+	left : 6071px;
+	top : 169px;
+	width : 1920px;
+	height : 800px;
+}
+.arrows_2_
+{
+	background-image : url(arrows_2_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 6474px;
+	top : 518px;
+	width : 1118px;
+	height : 448px;
+}
+.explanation-text-button_1_
+{
+	background-image : url(explanation-text-button_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 6503px;
+	top : 770px;
+	width : 1092px;
+	height : 146px;
+}

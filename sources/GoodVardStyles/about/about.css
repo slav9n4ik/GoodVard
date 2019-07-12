@@ -1,0 +1,119 @@
+@charset "utf-8";
+	.st
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 18px;
+	color : #765438;
+	color : rgb(118, 84, 56);
+}
+.st1
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 18px;
+	color : #F2F2F2;
+	color : rgb(242, 242, 242);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.worker-bg_1_
+{
+	background : #FA7F40;
+	background : rgba(250, 127, 64, 1);
+	position : absolute ;
+	left : 390px;
+	top : 4708px;
+	width : 523px;
+	height : 700px;
+	border-radius : 12px;
+	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.worker-bg
+{
+	background : #FA7F40;
+	background : rgba(250, 127, 64, 1);
+	position : absolute ;
+	left : 1006px;
+	top : 4708px;
+	width : 523px;
+	height : 700px;
+	border-radius : 12px;
+	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.worker-photo
+{
+	background-image : url(worker-photo.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1147px;
+	top : 4720px;
+	width : 245px;
+	height : 246px;
+}
+.worker-photo_1_
+{
+	background-image : url(worker-photo_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 531px;
+	top : 4719px;
+	width : 245px;
+	height : 257px;
+}
+.st3
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 18px;
+	color : #765438;
+	color : rgb(118, 84, 56);
+}
+.st2
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 28px;
+	font-variant : small-caps;
+	color : #FDDC70;
+	color : rgb(253, 220, 112);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.st5
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 28px;
+	font-variant : small-caps;
+	color : #FDDC70;
+	color : rgb(253, 220, 112);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.st6
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 50px;
+	font-variant : small-caps;
+	color : #A13323;
+	color : rgb(161, 51, 35);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.st4
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 18px;
+	color : #F2F2F2;
+	color : rgb(242, 242, 242);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.about-us-main-bg
+{
+	background : #FDDC70;
+	background : rgba(253, 220, 112, 1);
+	position : absolute ;
+	left : 0px;
+	top : 4598px;
+	width : 1920px;
+	height : 900px;
+}

@@ -1,0 +1,79 @@
+/* Анимация при проскроливании */
+.height-down {
+	height : 60px !important;
+}
+
+/* Основной блок мелкого заголовка */
+.small-header-bg {
+	background : #FDDC70;
+	width : 100%;
+	height : 120px;
+	position: fixed; 
+	transition: all 0.5s;
+}
+
+/* Иконка пчелки */
+.logo-bee-small {
+	display: inline-block;
+	margin-left: 10px;
+	filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.4));
+}
+
+/* Телефонный номер в маленьком заголовке */
+.phone-number-small {
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 16px;
+	color : #231F20;
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+
+	margin-top: 14px; 
+	display: inline-block;
+}
+
+/* Вертикальная черта */
+.line-small-header
+{
+	border-left: 2px solid #231F20;
+	border-radius: 2px;
+
+	/* width : 1px; */
+	height : 35px;
+	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+
+	display: inline-block;
+	margin: 0px 15px 0px 15px;
+}
+
+/* Стили иконок */
+.icons-small {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.inline-icon {
+	margin: 5px;
+}
+
+/* Кнопка записаться в мелком заголовке */
+.note-button-small {
+	background-color: #FF0700;
+	border: solid;
+	border-width: 0px;
+	border-radius: 6px;
+	padding: 8px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.50);
+
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 14px;
+	text-transform : uppercase;
+	color : #FAF2F3;
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.50);
+	
+	display: inline-block;
+	margin-bottom: 3px;
+	margin-right: 1px;
+}

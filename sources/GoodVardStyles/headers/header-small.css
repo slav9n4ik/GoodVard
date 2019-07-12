@@ -1,0 +1,102 @@
+@charset "utf-8";
+.st
+{
+	font-family : Font Awesome 5 Brands;
+	font-size : 17px;
+	color : #231F20;
+	color : rgb(35, 31, 32);
+}
+.st1
+{
+	font-family : Font Awesome 5 Brands;
+	font-size : 17px;
+	line-height : 22.41px;
+	color : #231F20;
+	color : rgb(35, 31, 32);
+}
+.st3
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 12px;
+	text-transform : uppercase;
+	color : #FAF2F3;
+	color : rgb(250, 242, 243);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.st2
+{
+	font-family : Font Awesome 5 Brands;
+	font-size : 17px;
+	color : #231F20;
+	color : rgb(35, 31, 32);
+}
+.st4
+{
+	font-family : Bahnschrift;
+	font-weight : bold;
+	font-size : 16px;
+	color : #231F20;
+	color : rgb(35, 31, 32);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.logo-bee-small
+{
+	background-image : url(logo-bee-small.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 2369px;
+	top : 48px;
+	width : 39px;
+	height : 41px;
+}
+.logo-text-small
+{
+	background-image : url(logo-text-small.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 2415px;
+	top : 61px;
+	width : 93px;
+	height : 15px;
+}
+.line-small-header_1_
+{
+	background : #231F20;
+	background : rgba(35, 31, 32, 1);
+	border-style : Solid;
+	border-color : #231F20;
+	border-color : rgba(35, 31, 32, 1);
+	border-width : 0px;
+	position : absolute ;
+	left : 2531px;
+	top : 51px;
+	width : 0px;
+	height : 35px;
+	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.small-header-bg
+{
+	background : #FDDC70;
+	background : rgba(253, 220, 112, 1);
+	position : absolute ;
+	left : 1961px;
+	top : 43px;
+	width : 1919px;
+	height : 50px;
+}
+.line-small-header
+{
+	background : #231F20;
+	background : rgba(35, 31, 32, 1);
+	border-style : Solid;
+	border-color : #231F20;
+	border-color : rgba(35, 31, 32, 1);
+	border-width : 0px;
+	position : absolute ;
+	left : 3214px;
+	top : 51px;
+	width : 0px;
+	height : 35px;
+	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}

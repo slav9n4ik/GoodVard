@@ -1,0 +1,76 @@
+@charset "utf-8";
+	.st
+{
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 50px;
+	font-variant : small-caps;
+	color : #A13323;
+	color : rgb(161, 51, 35);
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.discount-bg
+{
+	background : #A13323;
+	background : rgba(161, 51, 35, 1);
+	opacity : 0.9;
+	position : absolute ;
+	left : 460px;
+	top : 2414px;
+	width : 1000px;
+	height : 616px;
+	border-radius : 8px;
+	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.discount3
+{
+	background-image : url(discount3.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 470px;
+	top : 2431px;
+	width : 324px;
+	height : 557px;
+}
+.discount1
+{
+	background-image : url(discount1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 799px;
+	top : 2431px;
+	width : 324px;
+	height : 557px;
+}
+.discount2
+{
+	background-image : url(discount2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1131px;
+	top : 2431px;
+	width : 324px;
+	height : 557px;
+}
+.discount-main-bg
+{
+	background : #E9AA44;
+	background : rgba(233, 170, 68, 1);
+	position : absolute ;
+	left : 834px;
+	top : 2339px;
+	width : 250px;
+	height : 62px;
+	border-radius : 4px;
+	box-shadow : 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.discount-main-bg_1_
+{
+	background-image : url(discount-main-bg_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 0px;
+	top : 2318px;
+	width : 1920px;
+	height : 750px;
+}
