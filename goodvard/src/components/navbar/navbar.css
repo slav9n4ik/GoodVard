@@ -3,9 +3,14 @@
     position: fixed;
     top: 120px;
     width: 100%;
+    z-index: 18;
 
     background-color: #231F20 !important;
     transition: all 0.5s;
+}
+
+#navbar .navbar-toggler {
+    margin-left: 20px;
 }
 
 /* After scroll 50px */

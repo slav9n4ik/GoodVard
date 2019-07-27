@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 
 class PhotoVideo extends Component {
-
   render() {
     let style = {
       "backgroundColor": "yellow",

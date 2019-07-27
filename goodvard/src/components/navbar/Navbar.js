@@ -3,36 +3,25 @@ import "./navbar.css";
 import LogoBee from "../../icons/bee-logo .svg";
 import GoodvardLogo from "../../icons/goodvard.svg";
 import $ from "jquery";
-import NavsArray from "./NavsArray.js";
+//import 'jquery.appear';
+import navsArray from "./NavsArray.js";
 import Navs from "./Navs.js";
-import scrollToY from "./scrollToY.js";
-
-$(document).ready(function() {
-  $("#navbarNav").on("click", "a", function(event) {
-    event.preventDefault();
-    var id = $(this).attr("href"),
-      top = $(id).offset().top - 120;
-    $("body,html").animate({ scrollTop: top }, 1000);
-  });
-});
 
 class Navbar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeId: 1,
-      sectionsTop: []
+      activeId: 1
     };
     this.clickHandler = this.clickHandler.bind(this);
     this.scrollSmooth = this.scrollSmooth.bind(this);
-    this.listenScrollEvent = this.listenScrollEvent.bind(this);
+    //this.appearComponentListener = this.appearComponentListener.bind(this);
   }
 
-  clickHandler(id, href) {
+  clickHandler(id) {
     //Hide collaps in navbar on mobile
     let navMain = $("#navbarNav");
     navMain.collapse("hide");
-    //this.scrollSmooth(href);
 
     this.setState({
       activeId: id
@@ -40,80 +29,27 @@ class Navbar extends Component {
   }
 
   //Animated scroll
-  scrollSmooth(href) {
-    let id = href.split("#")[1];
-    let offsetTop = document.getElementById(id).offsetTop;
-    scrollToY(offsetTop - 120, 0.001, "easeInOutQuint");
-    console.log(offsetTop);
-  }
-
-  listenScrollEvent = () => {
-    let {activeId, sectionsTop} = this.state;
-    let currentUpOffset;
-    for (let i = 0; i < sectionsTop.length; i++) {
-      if (sectionsTop[i].id === activeId) {
-        currentUpOffset = sectionsTop[i].offset
-      } 
-    }
-    console.log("currentUpOffset",currentUpOffset)
-
-    let currentDownOffset;
-    if (typeof currentUpOffset !== undefined) {
-      for (let i = 0; i < sectionsTop.length; i++) {
-        if (sectionsTop[i].offset === currentUpOffset) {
-          currentDownOffset = sectionsTop[i+1].offset;
-        }
-      }
-      console.log("currentDownOffset", currentDownOffset)
-    }
-    
-    if (window.scrollY+120 > currentDownOffset) {
-      this.setState({
-        activeId: activeId + 1
+  scrollSmooth() {
+    $(document).ready(function() {
+      $("#navbarNav").on("click", "a", function(event) {
+        event.preventDefault();
+        let width = $(window).width();
+        let offset;
+        width <= 960 ? offset = 60 : offset = 120;
+        var id = $(this).attr("href"),
+          top = $(id).offset().top - offset;
+        $("body,html").animate({ scrollTop: top }, 1200);
       });
-    }
-
-    if (window.scrollY+120 < currentUpOffset) {
-      this.setState({
-        activeId: activeId - 1
-      });
-    }
-      // for (var i = 0; i < array.length; i++) {
-      //   if (
-      //     window.scrollY-120 > array[i].offset &&
-      //     window.scrollY-120 < array[i + 1].offset &&
-      //     this.state.activeId !== array[i].id &&
-      //     i + 1 < array.length
-      //   ) {
-      //     this.setState({
-      //       activeId: array[i].id
-      //     });
-      //   }
-      // }
-    
+    });
   };
 
   componentDidMount() {
-    //Init offesets of sections
-    let sectionsOffSets = NavsArray.map(section => {
-      let id = section.href.split("#")[1];
-      return {
-        id: section.id,
-        offset: document.getElementById(id).offsetTop - 120
-      };
-    });
-    this.setState({
-      sectionsTop: sectionsOffSets
-    });
-    console.log("Sections: ", sectionsOffSets);
-
-    //window.addEventListener("scroll", this.listenScrollEvent);
-    window.addEventListener("show", console.log("Appear"));
+    this.scrollSmooth();
   }
 
   render() {
     console.log("Render id: ", this.state.activeId);
-    let navsComp = NavsArray.map(item => {
+    let navsComp = navsArray.map(item => {
       return (
         <Navs
           key={item.id}
@@ -146,7 +82,7 @@ class Navbar extends Component {
               className="logotext"
               src={GoodvardLogo}
               width="120"
-              height="45"
+              height="45" 
               alt=""
             />
           </a>
