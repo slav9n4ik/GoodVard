@@ -8,20 +8,6 @@
     background-color: #FDDC70;
 }
 
-/* Main image for main banner */
-#home .mainImg {
-    position: absolute;
-    top: -47%;
-    right: 0%;
-    left: 0%;
-    z-index: 0;
-}
-
-#home .imgMainBg {
-    width: 100%;
-    height: auto;
-}
-
 #home .explanation-bg
 {
 	background : #F2F2F2;
@@ -96,6 +82,11 @@
     background-color: black;
     opacity: 0.2;
     z-index: 5;
+}
+
+/*Чтобы стрелки были выше слоя затемнения*/
+#carouselExampleIndicators .carousel-control-prev, .carousel-control-next {
+    z-index: 6 !important;
 }
 
 @media (max-width: 1140px) {

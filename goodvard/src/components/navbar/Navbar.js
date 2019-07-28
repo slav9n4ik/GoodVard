@@ -48,7 +48,6 @@ class Navbar extends Component {
   }
 
   render() {
-    console.log("Render id: ", this.state.activeId);
     let navsComp = navsArray.map(item => {
       return (
         <Navs

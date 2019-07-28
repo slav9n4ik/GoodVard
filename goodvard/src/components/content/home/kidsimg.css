@@ -1,0 +1,43 @@
+/* Main image for main banner */
+#home .kidsImg {
+    position: absolute;
+    top: -35%;
+    right: 18%;
+    left: 18%;
+    z-index: 0;
+}
+
+#home .imgKidsBg {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 480px) {
+    #home .kidsImg img{
+        position: absolute;
+        padding-top: 0%;
+        left: -35%;
+        width: 190% !important;
+        max-width: 190% !important;
+        z-index: 0;
+    }
+
+    #home .imgKidsBg {
+        width: 190%;
+        height: auto;
+    }
+}
+
+@media (max-width: 420px) {
+    #home .kidsImg img{
+        padding-top: 0%;
+        left: -25%;
+        width: 170% !important;
+    }
+}
+
+@media (max-width: 350px) {
+    #home .kidsImg img{
+        padding-top: 10%;
+    }
+}

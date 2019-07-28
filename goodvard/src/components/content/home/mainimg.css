@@ -1,0 +1,52 @@
+/* Main image for main banner */
+#home .mainImg {
+    position: absolute;
+    top: -47%;
+    right: 0%;
+    left: 0%;
+    z-index: 0;
+}
+
+#home .imgMainBg {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1140px) {
+    #home .mainImg {
+        top: -50%;
+    }
+}
+
+@media (max-width: 960px) {
+    #home .mainImg {
+        top: -35%;
+    }
+}
+
+@media (max-width: 480px) {
+    #home .mainImg img{
+        position: absolute;
+        padding-top: 25%;
+        left: -25%;
+        width: 160% !important;
+        max-width: 160% !important;
+        z-index: 0;
+    }
+    #home .imgMainBg {
+        width: 160%;
+        height: auto;
+    }
+}
+
+@media (max-width: 420px) {
+    #home .mainImg img{
+        padding-top: 8% ;
+    }
+}
+
+@media (max-width: 360px) {
+    #home .mainImg img{
+        padding-top: 20%;
+    }
+}

@@ -1,0 +1,27 @@
+/* Main image for main banner */
+#home .preschoolImg {
+    position: absolute;
+    top: -25%;
+    right: 15%;
+    left: 15%;
+    z-index: 0;
+}
+
+#home .preschoolImgBg {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 480px) {
+    #home .preschoolImg img{
+        position: absolute;
+        left: -20% !important;
+        width: 150% !important;
+        max-width: 150% !important;
+    }
+    
+    #home .preschoolImgBg {
+        width: 190%;
+        height: auto;
+    }
+}
