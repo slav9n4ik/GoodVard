@@ -1,19 +1,25 @@
 /* Main image for main banner */
-#home .kidsImg {
+#home .schoolImg {
     position: absolute;
     top: -35%;
-    right: 18%;
-    left: 18%;
+    right: 0%;
+    left: 0%;
     z-index: 0;
 }
 
-#home .imgKidsBg {
+#home .schoolImgBg {
     width: 100%;
     height: auto;
 }
 
+@media (max-width: 1140px) {
+    #home .schoolImg {
+        top: -40%;
+    }
+}
+
 @media (max-width: 480px) {
-    #home .kidsImg img{
+    #home .schoolImg img{
         position: absolute;
         padding-top: 0%;
         left: -35%;
@@ -22,22 +28,26 @@
         z-index: 0;
     }
 
-    #home .imgKidsBg {
+    #home .schoolImgBg {
         width: 150%;
         height: auto;
     }
 }
 
 @media (max-width: 420px) {
-    #home .kidsImg img{
-        padding-top: 0%;
-        left: -25%;
-        width: 170% !important;
+    #home .schoolImg img{
+        padding-top: 32%;
+        left: 0%;
+        width: 100% !important;
+    }
+
+    #home .schoolImgBg {
+        display: none;
     }
 }
 
 @media (max-width: 350px) {
-    #home .kidsImg img{
-        padding-top: 10%;
+    #home .schoolImg img{
+        padding-top: 40%;
     }
 }

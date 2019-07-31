@@ -1,0 +1,47 @@
+/* Main image for main banner */
+#home .campImg {
+    position: absolute;
+    top: -55%;
+    right: 0%;
+    left: 0%;
+    z-index: 0;
+}
+
+#home .campImgBg {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1140px) {
+    #home .campImg {
+        top: -55%;
+    }
+}
+
+@media (max-width: 480px) {
+    #home .campImg img{
+        position: absolute;
+        padding-top: 0%;
+        left: -35%;
+        z-index: 0;
+        background-color: rgb(37,37,37)
+    }
+}
+
+@media (max-width: 420px) {
+    #home .campImg img{
+        padding-top: 32%;
+        left: 0%;
+        width: 100% !important;
+    }
+
+    #home .campImgBg {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+    #home .campImg img{
+        padding-top: 40%;
+    }
+}

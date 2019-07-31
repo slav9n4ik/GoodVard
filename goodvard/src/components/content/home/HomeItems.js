@@ -1,4 +1,5 @@
 import campImgBg from "../../../img/camp-baner-bg.png";
+import campImg from "../../../img/camp-baner-bg-back.png";
 import mainImgBg from "../../../img/explanation-photo.png";
 import mainImg from "../../../img/explanation-photo-back.jpg";
 import kidsImgBg from "../../../img/kids-baner-bg.png";
@@ -6,6 +7,7 @@ import kidsImg from "../../../img/kids-baner-bg-back.png";
 import preschoolImgBg from "../../../img/preschool-baner-bg.png";
 import preschoolImg from "../../../img/preschool-baner-bg-back.png";
 import schoolImgBg from "../../../img/shool-baner-bg.png";
+import schoolImg from "../../../img/school-baner-bg-back.jpg";
 
 export default [
     {
@@ -29,18 +31,18 @@ export default [
         src: preschoolImg,
         srcBg: preschoolImgBg
     },
-    // {
-    //     id: 3,
-    //     title: 'school',
-    //     explanation: 'school',
-    //     src: mainImg,
-    //     srcBg: schoolImgBg
-    // },
-    // {
-    //     id: 4,
-    //     title: 'camp',
-    //     explanation: 'camp',
-    //     src: mainImg,
-    //     srcBg: campImgBg
-    // }
+    {
+        id: 3,
+        title: 'Английский для школьников',
+        explanation: 'Учеба с удовольствием',
+        src: schoolImg,
+        srcBg: schoolImgBg
+    },
+    {
+        id: 4,
+        title: 'Английский детский лагерь',
+        explanation: 'Увлекательные программы с полным погружением в языковую среду',
+        src: campImg,
+        srcBg: campImgBg
+    }
 ]

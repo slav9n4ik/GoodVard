@@ -15,13 +15,19 @@
 @media (max-width: 480px) {
     #home .preschoolImg img{
         position: absolute;
-        left: -20% !important;
+        left: -22% !important;
         width: 150% !important;
         max-width: 150% !important;
+        background-color: rgb(39, 37, 37);
     }
     
     #home .preschoolImgBg {
-        width: 190%;
-        height: auto;
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    #home .preschoolImg img{
+        padding-top: 20%;
     }
 }

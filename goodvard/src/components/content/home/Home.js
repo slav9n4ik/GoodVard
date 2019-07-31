@@ -12,16 +12,29 @@ class Home extends Component {
       );
     })
 
+    let itemCompLi = HomeItems.map(item => {
+      if (item.id === 0) {
+        return (
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+        );
+      } else {
+        return(
+          <li data-target="#carouselExampleIndicators" data-slide-to={item.id}></li>
+        );
+      }
+    })
+
     return (
       <Fragment>
         <div id="home">
           <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+              {itemCompLi}
+              {/* <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li> */}
             </ol>
             <div className="carousel-inner">
               {itemsComp}

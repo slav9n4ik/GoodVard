@@ -3,6 +3,8 @@ import "./home.css";
 import "./kidsimg.css";
 import "./mainimg.css";
 import "./preschoolimg.css";
+import "./schoolimg.css";
+import "./campimg.css";
 
 let HomeItemsComp = props => {
 
@@ -23,6 +25,14 @@ let HomeItemsComp = props => {
       case 2 :
         imgClassBg = "preschoolImgBg";
         imgClass = "preschoolImg"
+        break;
+      case 3 :
+        imgClassBg = "schoolImgBg";
+        imgClass = "schoolImg"
+        break;
+      case 4 :
+        imgClassBg = "campImgBg";
+        imgClass = "campImg"
         break;
       default:
         console.log("default")
