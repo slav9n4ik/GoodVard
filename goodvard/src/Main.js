@@ -8,6 +8,7 @@ import Results from "./components/content/results/Results.js";
 import About from "./components/content/about/About.js";
 import Comments from "./components/content/comments/Comments.js";
 import Contacts from "./components/content/contacts/Contacts.js";
+import Advantages from "./components/content/advantages/Advantages.js";
 
 class Main extends Component {
   render() {
@@ -16,6 +17,9 @@ class Main extends Component {
         <main className="container-fluid main-container">
           <div className="row justify-content-center">
             <Home />
+          </div>
+          <div id="advantages" className="row justify-content-center bee-bg">
+            <Advantages />
           </div>
           <div className="row">
             <Courses />

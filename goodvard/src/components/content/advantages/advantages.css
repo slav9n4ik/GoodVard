@@ -1,0 +1,64 @@
+#advantages .advantage-bg
+{
+	background: #FA7F40;
+    background: rgba(250, 127, 64, 1);
+    margin: 20px;
+    min-width: 280px;
+    max-width: 310px;
+    height: 320px;
+    width: auto;
+	border-radius: 12px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#advantages .adv-icon-container {
+    margin: 0 auto;
+    margin-top: 25px;
+	width: 125px;
+    height: 125px;
+}
+
+#advantages .explanation-container {
+    max-width: 280px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#advantages h3 {
+    font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #FDDC70;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.55);
+}
+
+#advantages p {
+    font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 22px;
+	color: #F2F2F2;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+#advantages .video-btn-container {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#advantages .video-button {
+    font-size: 22px !important;
+}
+
+@media (max-width: 960px) {
+    #advantages .advantage-bg
+    {
+        margin-bottom: -5px;
+    }
+    #advantages .video-btn-container {
+        margin-top: 20px;
+    }
+}
+
+/* 1) Убрать пробелы между блоками
+   2) Оставить маленькую ширину на больших экранах*/

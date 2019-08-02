@@ -15,11 +15,11 @@ class Home extends Component {
     let itemCompLi = HomeItems.map(item => {
       if (item.id === 0) {
         return (
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+          <li key={0} data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
         );
       } else {
         return(
-          <li data-target="#carouselExampleIndicators" data-slide-to={item.id}></li>
+          <li key={item.id} data-target="#carouselExampleIndicators" data-slide-to={item.id}></li>
         );
       }
     })

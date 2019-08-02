@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoBee from "./../../icons/bee-logo .svg";
 import GoodvardLogo from "./../../icons/goodvard.svg";
-import "./../../css/header-large.css";
+import "./header-large.css";
 import HeaderIcons from "./HeaderIcons.js";
 
 let BigHeader = () => {

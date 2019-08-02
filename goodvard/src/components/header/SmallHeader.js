@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import "../../css/header-small.css";
+import "./header-small.css";
 import LogoBee from "../../icons/bee-logo .svg";
 import HeaderIconsSmall from "./HeaderIconsSmall.js";
 
