@@ -50,12 +50,12 @@ class Courses extends Component {
                 />
               </div>
               {/* For mobiles */}
-              <div className="container-fluid course-container mb-4 d-lg-none">
+              <div className="container-fluid course-container mb-4 d-md-none">
                 <div className="row justify-content-center">
                   {courseItems}
                 </div>
               </div>
-              <div className="container-fluid mb-4 d-lg-none">
+              <div className="container-fluid mb-4 d-md-none">
                 <CourseExplContainer 
                   itemId={this.state.activeId}
                 />

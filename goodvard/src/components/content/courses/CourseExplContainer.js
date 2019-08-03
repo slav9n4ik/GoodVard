@@ -45,7 +45,7 @@ let CourseExplContainer = props => {
           <ul className="fa-ul">{explanationPoints}</ul>
           {/* For mobiles */}
           <input
-            className={"note-button button-lg d-lg-none"}
+            className={"note-button button-lg d-md-none"}
             type="button"
             value={"Записаться на курс"}
           />

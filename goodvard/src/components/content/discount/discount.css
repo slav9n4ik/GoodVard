@@ -1,0 +1,29 @@
+#discount .header-container {
+    font-family : Trebuchet MS;
+	font-weight: bold;
+	font-size: 50px;
+	color: #A13323;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#discount .discount-container {
+    background: #A13323;
+    opacity: 0.9;
+	border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#discount .discount-container img{
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    #discount .discount-container img{
+        width: 90%;
+    }
+}
+

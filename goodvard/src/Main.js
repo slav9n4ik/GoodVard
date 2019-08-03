@@ -24,7 +24,7 @@ class Main extends Component {
           <div className="row yellow-bg">
             <Courses />
           </div>
-          <div className="row">
+          <div className="row bee-bg">
             <Discount />
           </div>
           <div className="row">
