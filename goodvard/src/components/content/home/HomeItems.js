@@ -20,7 +20,7 @@ export default [
     {
         id: 1,
         title: 'Английский садик',
-        explanation: 'Ваш ребенок свободно говорит',
+        explanation: 'Ваш ребенок свободно заговорит',
         src: kidsImg,
         srcBg: kidsImgBg
     },

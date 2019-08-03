@@ -21,7 +21,7 @@ class Main extends Component {
           <div id="advantages" className="row justify-content-center bee-bg">
             <Advantages />
           </div>
-          <div className="row">
+          <div className="row yellow-bg">
             <Courses />
           </div>
           <div className="row">

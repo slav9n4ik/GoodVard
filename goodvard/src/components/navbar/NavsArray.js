@@ -6,8 +6,8 @@ export default [
     },
     {
         id: 2,
-        href: "#cources",
-        value: "КУРСЫ"
+        href: "#courses",
+        value: "Программы обучения"
     },
     {
         id: 3,
