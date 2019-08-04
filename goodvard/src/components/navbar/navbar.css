@@ -35,17 +35,20 @@
     text-transform: uppercase;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.55);
 
-    margin: 0px 25px -3px 25px;
+    margin: -5px 15px -3px 15px;
 }
 
 /* Text hover */
 #navbar a:hover {
-    color: #FF0700;
+    color: #FDDC70;
+}
+#navbar .active a{
+    color: #FDDC70 !important;
 }
 
 /* Text active */
 #navbar .active>.hover {
-    background-color: #FF0700;
+    background-color: #FDDC70;
     width: 75%;
     height: 4px;
     margin: 0 auto;

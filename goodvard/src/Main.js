@@ -30,7 +30,7 @@ class Main extends Component {
           <div className="row yellow-bg">
             <PhotoVideo />
           </div>
-          <div className="row">
+          <div className="row bee-bg">
             <Results />
           </div>
           <div className="row">
