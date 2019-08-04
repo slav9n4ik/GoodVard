@@ -9,23 +9,28 @@
 
 #discount .discount-container {
     background: #A13323;
-    opacity: 0.9;
-	border-radius: 8px;
+	border-radius: 5px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
     padding-top: 20px;
     margin-bottom: 20px;
-
+    
     text-align: center;
 }
 
 #discount .discount-container img{
     margin-bottom: 20px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   
+    background-image: url("../../../img/bg.png");
+    background-repeat: repeat;
+    border: solid 3px;
+    border-color: #FDDC70;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #discount .discount-container img{
-        width: 90%;
+        width: 95%;
     }
 }
 
