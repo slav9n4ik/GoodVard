@@ -1,0 +1,19 @@
+#photo .header-container{
+    font-family : Trebuchet MS;
+	font-weight: bold;
+	font-size: 50px;
+	color: #A13323;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#photo .photo-container {
+    background: #A13323;
+    opacity: 0.9;
+	border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+ 

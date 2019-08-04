@@ -17,7 +17,7 @@ export default [
     {
         id: 4,
         href: "#photo",
-        value: "ФОТО И ВИДЕО"
+        value: "Альбом"
     },
     {
         id: 5,

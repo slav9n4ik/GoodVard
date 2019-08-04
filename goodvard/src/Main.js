@@ -3,7 +3,7 @@ import "./css/main.css";
 import Home from "./components/content/home/Home.js";
 import Courses from "./components/content/courses/Courses.js";
 import Discount from "./components/content/discount/Discount.js";
-import PhotoVideo from "./components/content/photo/PhotoVideo.js";
+import PhotoVideo from "./components/content/photovideo/PhotoVideo.js";
 import Results from "./components/content/results/Results.js";
 import About from "./components/content/about/About.js";
 import Comments from "./components/content/comments/Comments.js";
@@ -27,7 +27,7 @@ class Main extends Component {
           <div className="row bee-bg">
             <Discount />
           </div>
-          <div className="row">
+          <div className="row yellow-bg">
             <PhotoVideo />
           </div>
           <div className="row">
