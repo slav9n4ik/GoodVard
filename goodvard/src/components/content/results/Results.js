@@ -1,9 +1,37 @@
 import React, { Component, Fragment } from "react";
 import './results.css';
+import ResultItem from "./ResultItem.js";
+import resultArray from './resultsArray.js';
 
 class Results extends Component {
-
   render() {
+
+    let ResultComps = resultArray.map(item => {
+      return(
+        <ResultItem key={item.id} text={item.text} src={item.src}/>
+      );
+    });
+
+    let columnsArr = [];
+    let rowArr = [];
+    for (let i = 0; i < ResultComps.length; i++) {
+      columnsArr.push(ResultComps[i]);
+      if (columnsArr.length === 2) {
+        rowArr.push(columnsArr);
+        columnsArr = [];
+      }
+    }
+
+    let id = 0;
+    let ResultCompsRows = rowArr.map(item => {
+      id++;
+      return(
+        <div key={id} className="row justify-content-center">
+            {item}
+        </div>
+      );
+    });
+
     return (
       <Fragment>
         <div id="results" className="container-fluid">
@@ -12,13 +40,7 @@ class Results extends Component {
               <p>Наши результаты</p>
             </div>
           </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-12">
-              <div className="container-fluid results-container">
-                
-              </div>
-            </div>
-          </div>
+          {ResultCompsRows}
         </div>
       </Fragment>
     );

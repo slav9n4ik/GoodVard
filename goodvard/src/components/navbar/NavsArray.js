@@ -16,13 +16,13 @@ export default [
     },
     {
         id: 4,
-        href: "#photo",
-        value: "Фото Альбом"
+        href: "#results",
+        value: "РЕЗУЛЬТАТЫ"
     },
     {
         id: 5,
-        href: "#results",
-        value: "РЕЗУЛЬТАТЫ"
+        href: "#photo",
+        value: "Фото Альбом"
     },
     {
         id: 6,

@@ -28,10 +28,10 @@ class Main extends Component {
             <Discount />
           </div>
           <div className="row yellow-bg">
-            <PhotoVideo />
+            <Results />
           </div>
           <div className="row bee-bg">
-            <Results />
+            <PhotoVideo />
           </div>
           <div className="row">
             <About />
