@@ -33,7 +33,7 @@ class Main extends Component {
           <div className="row bee-bg">
             <PhotoVideo />
           </div>
-          <div className="row">
+          <div className="row yellow-bg">
             <About />
           </div>
           <div className="row">

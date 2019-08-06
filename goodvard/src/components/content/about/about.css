@@ -1,0 +1,64 @@
+#about .header-container {
+    font-family : Trebuchet MS;
+	font-weight: bold;
+	font-size: 50px;
+	color: #A13323;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#about .about-container-item {
+    background : #FA7F40;
+	/* width : 523px;
+	height : 700px; */
+	border-radius : 12px;
+    box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+    margin: 5px 15px 25px 15px;
+    
+    text-align: center;
+}
+                        
+#about .img-item {
+	width : 245px;
+	height : 245px;
+}
+
+#about .about-container-item h3{
+    font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 28px;
+	font-variant : small-caps;
+	color : #FDDC70;
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.55);
+}
+
+#about .about-container-item h5{
+    font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 18px;
+	color : #765438;
+}
+
+#about .about-container-item p{
+    font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 18px;
+	color : #F2F2F2;
+    text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.45);
+
+    margin: 0 45px 15px 45px;
+}
+
+#about .btn-margin{
+    margin: 10px;
+}
+
+@media (max-width: 1024px) {
+    #about .header-container {
+        font-size: 42px;
+    }
+
+    #about .about-container-item p{
+        margin: 0;
+    }
+}

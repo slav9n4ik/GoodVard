@@ -15,7 +15,6 @@ class Courses extends Component {
   }
 
   clickOnContainerHandler(id) {
-    console.log(id)
     this.setState({
       activeId: id
     })

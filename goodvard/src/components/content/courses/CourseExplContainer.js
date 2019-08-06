@@ -9,8 +9,6 @@ let CourseExplContainer = props => {
     }
   }
 
-  console.log("activeItem ", activeItem);
-
   let expId = 0;
   let explanationItems = activeItem.explanation.map(item => {
     expId++;
