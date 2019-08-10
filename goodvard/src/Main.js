@@ -36,10 +36,10 @@ class Main extends Component {
           <div className="row yellow-bg">
             <About />
           </div>
-          <div className="row">
+          <div className="row bee-bg">
             <Comments />
           </div>
-          <div className="row">
+          <div className="row yellow-bg">
             <Contacts />
           </div>
         </main>

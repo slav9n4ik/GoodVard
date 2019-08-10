@@ -25,9 +25,6 @@ class AboutItem extends Component {
             btnValue: "Подробнее"
         })
     }
-    
-    //1) Text for opening
-    //2) Change bcomponenutton for hide
   }
 
   componentDidMount() {

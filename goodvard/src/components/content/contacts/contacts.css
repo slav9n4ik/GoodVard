@@ -1,0 +1,29 @@
+#contacts .contacts-header{
+    font-family : Trebuchet MS;
+	font-weight: bold;
+	font-size: 50px;
+	color: #A13323;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+                            
+#contacts .contacts-container{
+    
+}
+        
+#contacts .contacts-item-container{
+    background : #A13323;
+	opacity : 0.9;
+	border-radius : 8px;
+	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#contacts .address-container{
+    background : #FA7F40;
+	border-radius : 8px;
+	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#contacts .photo-address-container{
+    
+}
