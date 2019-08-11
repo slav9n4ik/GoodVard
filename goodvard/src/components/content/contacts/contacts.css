@@ -1,29 +1,199 @@
-#contacts .contacts-header{
-    font-family : Trebuchet MS;
-	font-weight: bold;
-	font-size: 50px;
-	color: #A13323;
+#contacts .contacts-header {
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 50px;
+    color: #A13323;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
-                            
-#contacts .contacts-container{
-    
-}
-        
-#contacts .contacts-item-container{
-    background : #A13323;
-	opacity : 0.9;
-	border-radius : 8px;
-	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+
+#contacts .contacts-item-container p {
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #FAAF40;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
 }
 
-#contacts .address-container{
-    background : #FA7F40;
-	border-radius : 8px;
-	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
+#contacts .form-container label {
+    display: block;
+    width: 100%;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FDDC70;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
-#contacts .photo-address-container{
-    
+#contacts .form-container input {
+    display: block;
+    width: 100%;
+    background: #FA7F40;
+    border: solid 0px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#contacts .form-container textarea {
+    display: block;
+    width: 100%;
+    height: 150px;
+    background: #FA7F40;
+    border: solid 0px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#contacts .map-container {
+    background: #A13323;
+    opacity: 0.9;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px 15px;
+    width: 420px;
+    height: 480px;
+
+    margin: 0 auto;
+}
+
+#contacts .btn-container {
+    text-align: center;
+}
+
+#contacts .contacts-item-container {
+    background: #A13323;
+    opacity: 0.9;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#contacts .address-container {
+    background: #FA7F40;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#contacts .address-container h2 {
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FDDC70;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+#contacts .address-container p {
+    margin: 0;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FAF2F3;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#contacts .photo-address-container img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#contacts .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+}
+
+#contacts .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+#contacts .checkbox-class input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+#contacts .checkbox-class label {
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 11px;
+    color: #FDDC70;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Create a custom checkbox */
+#contacts .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #FDDC70;
+    border: solid 0px;
+	border-radius : 3px;
+    box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5); 
+}
+
+/* On mouse-over, add a grey background color */
+#contacts .container:hover input~.checkmark {
+    background-color: #FA7F40;
+}
+
+/* When the checkbox is checked, add a blue background */
+#contacts .container input:checked~.checkmark {
+    background-color: #FA7F40;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+#contacts .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+#contacts .container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media (max-width: 768px) {
+    #contacts .map-container {
+        width: 300px;
+        height: 480px;
+    }
+}
+
+@media (max-width: 321px) {
+    #contacts .map-container {
+        width: 260px;
+        height: 360px;
+    }
 }
