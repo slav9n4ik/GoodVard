@@ -5,10 +5,21 @@ import ImageGallery from 'react-image-gallery';
 
 class PhotoVideo extends Component {
 
+  getGallery() {
+    return(
+      <ImageGallery 
+        items={photoArray}
+        showPlayButton={false}
+      />
+    );
+  }
+
   render() {
+    const { inViewport, innerRef } = this.props;  
+
     return (
       <Fragment>
-        <div id="photo" className="container-fluid">
+        <div id="photo" className="container-fluid" ref={innerRef}>
           <div className="row justify-content-center">
             <div className="col-sm-12 header-container">
               <p>Альбом</p>
@@ -17,10 +28,7 @@ class PhotoVideo extends Component {
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-12">
               <div className="container-fluid photo-container">
-                <ImageGallery 
-                  items={photoArray}
-                  showPlayButton={false}
-                />
+                {inViewport ? this.getGallery() : ""}             
               </div>
             </div>
           </div>

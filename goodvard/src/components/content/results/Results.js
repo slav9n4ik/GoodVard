@@ -4,7 +4,13 @@ import ResultItem from "./ResultItem.js";
 import resultArray from './resultsArray.js';
 
 class Results extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+
   render() {
+    const { inViewport, innerRef } = this.props;
 
     let ResultComps = resultArray.map(item => {
       return(
@@ -34,13 +40,13 @@ class Results extends Component {
 
     return (
       <Fragment>
-        <div id="results" className="container-fluid">
+        <div id="results" className="container-fluid" ref={innerRef}>
           <div className="row justify-content-center">
             <div className="col-sm-12 header-container">
               <p>Наши результаты</p>
             </div>
           </div>
-          {ResultCompsRows}
+          {inViewport ? ResultCompsRows : ""}
         </div>
       </Fragment>
     );

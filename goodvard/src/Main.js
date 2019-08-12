@@ -9,6 +9,12 @@ import About from "./components/content/about/About.js";
 import Comments from "./components/content/comments/Comments.js";
 import Contacts from "./components/content/contacts/Contacts.js";
 import Advantages from "./components/content/advantages/Advantages.js";
+import Footer from "./components/footer/Footer.js";
+
+import handleViewport from 'react-in-viewport';
+
+const ViewportResults = handleViewport(Results);
+const ViewportPhoto = handleViewport(PhotoVideo);
 
 class Main extends Component {
   render() {
@@ -28,10 +34,11 @@ class Main extends Component {
             <Discount />
           </div>
           <div className="row yellow-bg">
-            <Results />
+            <ViewportResults />
           </div>
           <div className="row bee-bg">
-            <PhotoVideo />
+            <ViewportPhoto onEnterViewport={() => console.log('enter')} 
+                              onLeaveViewport={() => console.log('leave')}/>
           </div>
           <div className="row yellow-bg">
             <About />
@@ -41,6 +48,9 @@ class Main extends Component {
           </div>
           <div className="row yellow-bg">
             <Contacts />
+          </div>
+          <div className="row footer-bg">
+            <Footer />
           </div>
         </main>
       </Fragment>

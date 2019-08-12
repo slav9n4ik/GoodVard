@@ -28,7 +28,7 @@ class Discount extends Component {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-xl-7 col-12">
+            <div className="col-xl-8 col-12">
               <div className="container-fluid discount-container">
                 <div className="row justify-content-center">
                   {/* {imgComps} */}

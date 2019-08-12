@@ -1,0 +1,19 @@
+#footer h5 {
+    text-align: center;
+    font-family : Myriad Pro;
+	font-size : 14px;
+    color : #000000;
+    margin: 3px 0 0 0;
+}
+
+#footer p {
+    text-align: center;
+    font-family : Myriad Pro;
+    font-size : 14px;
+    margin-bottom: 1px;
+	color : #F2F2F2;
+}
+
+.footer-bg {
+    background-color: #FA7F40;
+}
