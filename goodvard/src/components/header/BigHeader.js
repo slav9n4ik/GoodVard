@@ -5,6 +5,15 @@ import "./header-large.css";
 import HeaderIcons from "./HeaderIcons.js";
 
 let BigHeader = () => {
+
+  let noteButtonListener = () => {
+    console.log("Click BigHeader")
+    document.getElementById("contacts").scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+    });
+  }
+
     return(
         <div className="container-fluid d-none d-lg-block">
           <div
@@ -36,6 +45,7 @@ let BigHeader = () => {
                       className={"note-button"}
                       type="button"
                       value={"Записаться на бесплатное занятие"}
+                      onClick={noteButtonListener}
                     />
                   </div>
                 </div>

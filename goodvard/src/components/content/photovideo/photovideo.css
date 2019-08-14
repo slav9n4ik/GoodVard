@@ -25,11 +25,15 @@
 
 #photo .button-lg {
     text-align: center;
-    font-size : 22px;
+    font-size : 20px;
     margin-bottom: 20px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
+#photo .button-lg:hover {
+    text-decoration: none;
+    color: white;
+}
 #photo  .button-container {
     text-align: center;
 }

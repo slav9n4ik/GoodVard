@@ -4,8 +4,8 @@ import AdvantageItem from "./AdvantageItem.js";
 import "./advantages.css";
 
 class Advantages extends Component {
-  render() {
 
+  render() {
     let AdvantageComps = AdvantagesArray.map(item => {
         return(
             <AdvantageItem 
@@ -24,11 +24,17 @@ class Advantages extends Component {
             {AdvantageComps}
           </div>
           <div className="row justify-content-center video-btn-container">
-            <input
+            <a  href="https://www.instagram.com/_goodvard/" 
+                className={"note-button video-button"}
+                >
+              Примеры видеоотчетов
+            </a>
+            {/* <input
               className={"note-button video-button"}
               type="button"
               value={"Примеры видеоотчетов"}
-            />
+              onClick={this.buttonHandler}
+            /> */}
           </div>
         </div>
       </Fragment>

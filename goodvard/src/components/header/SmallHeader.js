@@ -4,6 +4,15 @@ import LogoBee from "../../icons/bee-logo .svg";
 import HeaderIconsSmall from "./HeaderIconsSmall.js";
 
 class SmallHeader extends Component {
+
+  noteButtonListener() {
+    console.log("Click SmallHeader")
+    document.getElementById("contacts").scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+    });
+  }
+
   render() {
     return (
       <Fragment>
@@ -27,6 +36,7 @@ class SmallHeader extends Component {
                 className="note-button-small"
                 type="button"
                 value={"Записаться на бесплатное занятие"}
+                onClick={this.noteButtonListener}
               />
             </div>
           </div>

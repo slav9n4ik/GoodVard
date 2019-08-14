@@ -34,11 +34,11 @@ class PhotoVideo extends Component {
           </div>
           <div className="row justify-content-center">
             <div className="col-xl-2 col-lg-3 col-md-4 col-8 button-container">
-              <input
+              <a  href="https://www.instagram.com/_goodvard/" 
                 className={"note-button button-lg"}
-                type="button"
-                value={"Больше фото и видео"}
-              />
+                >
+                Больше фото и видео
+              </a> 
             </div>
           </div>
         </div>

@@ -50,6 +50,11 @@
     font-size: 22px !important;
 }
 
+#advantages .video-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
 @media (max-width: 960px) {
     #advantages .advantage-bg
     {

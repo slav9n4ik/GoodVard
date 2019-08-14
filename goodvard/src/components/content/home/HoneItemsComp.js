@@ -37,6 +37,15 @@ let HomeItemsComp = props => {
       default:
         console.log("default")
   }
+
+  let noteButtonListener = () => {
+    console.log("Click Banner", props.item.title)
+    document.getElementById("courses").scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+    });
+  }
+
   return (
     <Fragment>
       <div className={"carousel-item" + activeClass}>
@@ -49,6 +58,7 @@ let HomeItemsComp = props => {
             className="more-button"
             type="button"
             value={"Подробнее"}
+            onClick={noteButtonListener}
           />
         </div>
         <div className={imgClass}>

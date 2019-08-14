@@ -25,6 +25,14 @@ let CourseExplContainer = props => {
     );
   });
 
+  let noteButtonListener = () => {
+    console.log("Click Courses")
+    document.getElementById("contacts").scrollIntoView({
+          behavior: 'smooth',
+          block: 'end'
+    });
+  }
+
   return (
     <div className="row justify-content-center">
       <div className="col-xl-4 col-md-6 d-none d-md-block">
@@ -34,6 +42,7 @@ let CourseExplContainer = props => {
             className={"note-button button-lg"}
             type="button"
             value={"Записаться на курс"}
+            onClick={noteButtonListener}
           />
         </div>
       </div>
@@ -46,6 +55,7 @@ let CourseExplContainer = props => {
             className={"note-button button-lg d-md-none"}
             type="button"
             value={"Записаться на курс"}
+            onClick={noteButtonListener}
           />
         </div>
       </div>

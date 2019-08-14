@@ -37,8 +37,9 @@ class Main extends Component {
             <ViewportResults />
           </div>
           <div className="row bee-bg">
-            <ViewportPhoto onEnterViewport={() => console.log('enter')} 
-                              onLeaveViewport={() => console.log('leave')}/>
+            {/* <ViewportPhoto onEnterViewport={() => console.log('enter')} 
+                              onLeaveViewport={() => console.log('leave')}/> */}
+            <ViewportPhoto/>
           </div>
           <div className="row yellow-bg">
             <About />
