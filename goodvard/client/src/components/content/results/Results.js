@@ -5,10 +5,6 @@ import resultArray from './resultsArray.js';
 
 class Results extends Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { inViewport, innerRef } = this.props;
 

@@ -34,6 +34,12 @@
     border: solid 0px;
     border-radius: 8px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FAF2F3;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
 #contacts .form-container textarea {
@@ -44,6 +50,12 @@
     border: solid 0px;
     border-radius: 8px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FAF2F3;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
 #contacts .map-container {
@@ -60,6 +72,15 @@
 
 #contacts .btn-container {
     text-align: center;
+}
+
+#contacts .btn-container p{
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-transform: inherit;
+    font-size: 20px;
+    color: red;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
 #contacts .contacts-item-container {
@@ -143,7 +164,7 @@
     left: 0;
     height: 25px;
     width: 25px;
-    background-color: #FDDC70;
+    background-color: red;
     border: solid 0px;
 	border-radius : 3px;
     box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5); 

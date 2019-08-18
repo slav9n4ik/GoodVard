@@ -6,7 +6,11 @@
 /* Основной фон большого заголовка */
 .header-bg
 {
-	background-color : #FDDC70;
+	background-image: url("../../img/bg2.png");
+    background-repeat: repeat;
+    /* //background-position: center; */
+	background-color: #FDDC70;
+	
 	position: fixed;
 	width : 100%;
 	height : 120px;

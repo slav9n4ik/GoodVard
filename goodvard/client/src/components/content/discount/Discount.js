@@ -1,24 +1,12 @@
 import React, { Component, Fragment } from "react";
 import "./discount.css";
-import discountArray from "./discountArray.js";
-import DiscountCarusel from "./DiscountCarusel.js";
+// import discountArray from "./discountArray.js";
 import discountImg1 from "../../../img/discount1.png";
 import discountImg2 from "../../../img/discount3.png";
 import discountImg3 from "../../../img/discount3.png";
 
 class Discount extends Component {
   render() {
-
-    let id = 0;
-    let imgComps = discountArray.map(item => {
-      id++;
-      return(
-        <div key={id} className="col-sm-4 d-none d-md-block">
-          <img src={item} alt=''/>
-        </div>
-      );
-    });
-
     return (
       <Fragment>
         <div id="discount" className="container-fluid">
@@ -31,9 +19,6 @@ class Discount extends Component {
             <div className="col-xl-8 col-12">
               <div className="container-fluid discount-container">
                 <div className="row justify-content-center">
-                  {/* {imgComps} */}
-                  {/* For mobiles */}
-                  {/* <DiscountCarusel/> */}
                   <div className="col-sm-4">
                     <img src={discountImg1} alt=''/>
                   </div>

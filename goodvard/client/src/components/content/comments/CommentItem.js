@@ -1,5 +1,4 @@
 import React, {Component, Fragment} from 'react';
-import Slider from "react-slick";
 
 class CommentItem extends Component {
 

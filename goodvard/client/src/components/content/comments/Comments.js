@@ -3,11 +3,6 @@ import './comments.css';
 import CommentItem from './CommentItem.js';
 import commentsArray from './CommentsArray.js';
 
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-
-import Slider from "react-slick";
-
 class Comments extends Component {  
   render() {    
     let commentsComp = commentsArray.map(item => {
@@ -22,15 +17,6 @@ class Comments extends Component {
         />
       );
     });
-
-    let settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 3,
-      className: "sample"
-    };
 
     return (
       <Fragment>
@@ -50,16 +36,6 @@ class Comments extends Component {
           </div>
         </div>
       </div> 
-      {/* <div className= "comments-container-item">
-      <Slider {...settings}>
-                    <div >
-                        <h2>{commentsArray[0].name}</h2>
-                        <h4>{commentsArray[0].expl}</h4>
-                        <img src={commentsArray[0].src} alt=""/>
-                        <p>{commentsArray[0].text}</p>               
-                    </div>
-                  </Slider>
-      </div> */}
     </Fragment>
     );
   }
