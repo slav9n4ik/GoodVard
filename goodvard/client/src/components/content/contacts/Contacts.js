@@ -12,6 +12,8 @@ class Contacts extends Component {
       email: "",
       phone: "",
       text: "",
+      isHideAlertSuccess: true,
+      isHideAlertError: true,
       isDisable: true
     }
     this.sendMailHandler = this.sendMailHandler.bind(this);
@@ -20,16 +22,38 @@ class Contacts extends Component {
   }
 
   sendMailHandler() {
-    console.log("Send mail from client")
-    fetch('/api/sendEmail').then(response => {
-      response.json()
-      .then(data => {
-          console.log(data)
-      })
-      .catch( err => {
+    console.log("Send mail from client");
+    let requestData ={
+      name: this.state.clientName,
+      email: this.state.email,
+      phone: this.state.phone,
+      message: this.state.text
+    };
+
+    fetch('/api/sendEmail', 
+    { method: 'POST', 
+      headers: { 'Content-Type': 'application/json' }, 
+      body: JSON.stringify({ 
+        data: requestData
+      }) 
+    })
+      .then(result => 
+        result.text()
+        .then(result => {
+          if (result === 'success') {
+            console.log(result)
+            this.setState({
+              isHideAlertSuccess: false
+            });
+          } else {
+            this.setState({
+              isHideAlertError: false
+            });
+          }
+        }))
+        .catch( err => {
           console.log("Send Error: ", err);
       });
-    });
   }
 
   checkboxHandler() {
@@ -41,7 +65,7 @@ class Contacts extends Component {
   formHandler(event) {
     let {name, value} = event.target;
     this.setState({
-      [name]: [value]
+      [name]: value
     });
   }
 
@@ -138,6 +162,14 @@ class Contacts extends Component {
                         />
                       </div>
                     </div>
+                    <div className="alert alert-success alert-dismissible fade show" hidden={this.state.isHideAlertSuccess}>
+                        <button type="button" className="close" data-dismiss="alert">&times;</button>
+                        <strong>Отправлено!</strong> Сообщение было успешно отправлено!
+                      </div>
+                      <div className="alert alert-danger alert-dismissible fade show" hidden={this.state.isHideAlertError}>
+                        <button type="button" className="close" data-dismiss="alert">&times;</button>
+                        <strong>Ошибка!</strong> Сообщение не было отправлено! Повторите попытку!
+                      </div>
                   </div>
                 </div>
               </div>
@@ -152,9 +184,7 @@ class Contacts extends Component {
 
 export default Contacts;
 
-//1) Стили
 //2) Валидация
 //3) Логика отправки
     //a) Отправить самому себе сообщение с формы 
-    //б) Отправить пользователю сообщение об успешной доставке 
     //в) Пуш ап об успешной отправке 

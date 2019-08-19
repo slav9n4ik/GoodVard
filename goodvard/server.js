@@ -1,51 +1,69 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const nodemailer = require('nodemailer');
+const transport = require('./mail-config.js');
 
 const app = express();
 const port = process.env.PORT || 5000;
 
-let transport = nodemailer.createTransport({
-  host: 'smtp.yandex.ru', // hostname
-  //secureConnection: true, // use SSL
-  port: 465, // port for secure SMTP
-  auth: {
-      user: 'goodvardschool@yandex.ru',
-      pass: '***'
-  }
-});
-
 // setup e-mail data with unicode symbols
-let mailOptions = {
+let mailOptionsToClient = {
   from: "goodvardschool@yandex.ru", // sender address
-  to: "slava.tresnevv@gmail.com", // list of receivers
-  subject: "Hello ✔", // Subject line
-  text: "Hello world ✔", // plaintext body
-  html: "<b>Hello world ✔</b>" // html body
+  to: "", // list of receivers
+  subject: "Сообщение с формы обратной связи в GoodVard", // Subject line
+  text: "✔" // plaintext body
+  //html: "<b>Hello world ✔</b>" // html body
 }
 
-let sendMail = (getResRef) => {
+let mailOptionsToGoodVard = {
+  from: "goodvardschool@yandex.ru", // sender address
+  to: "goodvardschool@yandex.ru", // list of receivers
+  subject: "Сообщение с формы обратной связи в GoodVard", // Subject line
+  text: "✔" // plaintext body
+  //html: "<b>Hello world ✔</b>" // html body
+}
+
+let sendMailToGoodVard = (ajaxResponse, data) => {
+  let msg = "Имя: " + data.name +"\n" + "Телефон: " + data.phone + "\n" +
+            "Email: " + data.email + "\n" +
+            "Текст сообщения: " + data.message + "\n";
+
+  mailOptionsToGoodVard.text = msg;
   // send mail with defined transport object
-  transport.sendMail(mailOptions, function(error, response){
+  transport.sendMail(mailOptionsToGoodVard, function(error, response){
     if(error){
       console.log("Error sending mail: ", error);
-      //res.send({data: error});
+      ajaxResponse.send("error");
+    }else{
+      console.log("Message sent: " + data.message);
+      sendMailToClient(data);
+      ajaxResponse.send("success");
+    }
+  });
+}
+
+let sendMailToClient = (data) => {
+  let msg = "Добрый день, " + data.name + ". Ваше сообщение доставлено."+
+            " Наш сотрудник скоро обязательно с Вами свяжется. Спасибо за обращение!\n" + 
+            "Искренне Ваш Гудвард!";
+
+  mailOptionsToClient.to = data.email;
+  mailOptionsToClient.text = msg;
+  // send mail with defined transport object
+  transport.sendMail(mailOptionsToClient, function(error, response){
+    if(error){
+      console.log("Error sending mail: ", error);
     }else{
       console.log("Message sent: " + response.message);
-      //res.send({data: response.message});
     }
-
-    // if you don't want to use this transport object anymore, uncomment following line
-    //smtpTransport.close(); // shut down the connection pool, no more messages
   });
 }
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('/api/sendEmail', (req, res) => {
-  console.log("Get request: Send Email");
-  //sendMail(res);  
+app.post('/api/sendEmail', (req, res) => {
+  console.log("Post request: Send Email: ", req.body.data);
+  sendMailToGoodVard(res, req.body.data) 
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
