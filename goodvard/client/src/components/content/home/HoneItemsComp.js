@@ -46,9 +46,11 @@ let HomeItemsComp = props => {
     });
   }
 
+  let classProperty = "carousel-item crop-wrapper" + activeClass;
+
   return (
     <Fragment>
-      <div className={"carousel-item" + activeClass}>
+      <div className={classProperty}>
         <img src={props.item.srcBg} className={imgClassBg} alt={props.item.id} />
         <div className="explanation-bg">
           <h3>{props.item.title}</h3>

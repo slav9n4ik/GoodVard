@@ -4,6 +4,12 @@
     height: auto;
 }
 
+#home .crop-wrapper{
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
 #carouselExampleIndicators {
     background-color: #FDDC70;
 }

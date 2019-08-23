@@ -15,29 +15,23 @@
 @media (max-width: 480px) {
     #home .kidsImg img{
         position: absolute;
-        padding-top: 0%;
+        padding-top: 80%;
         left: -35%;
-        width: 190% !important;
-        max-width: 190% !important;
+        width: 360% !important;
+        max-width: 360% !important;
         z-index: 0;
     }
 
     #home .imgKidsBg {
-        width: 150%;
+        width: 360%;
         height: auto;
     }
 }
 
 @media (max-width: 420px) {
     #home .kidsImg img{
-        padding-top: 0%;
-        left: -25%;
-        width: 170% !important;
-    }
-}
-
-@media (max-width: 350px) {
-    #home .kidsImg img{
-        padding-top: 10%;
+        padding-top: 22%;
+        left: -78%;
+        width: 300% !important;
     }
 }

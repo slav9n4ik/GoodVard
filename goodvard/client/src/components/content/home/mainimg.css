@@ -27,26 +27,26 @@
 @media (max-width: 480px) {
     #home .mainImg img{
         position: absolute;
-        padding-top: 25%;
+        padding-top: 50%;
         left: -25%;
         width: 160% !important;
-        max-width: 160% !important;
+        max-width: 360% !important;
         z-index: 0;
     }
     #home .imgMainBg {
-        width: 160%;
+        width: 360%;
         height: auto;
     }
 }
 
 @media (max-width: 420px) {
     #home .mainImg img{
-        padding-top: 8% ;
+        padding-top: 50%;
     }
 }
 
 @media (max-width: 360px) {
     #home .mainImg img{
-        padding-top: 20%;
+        padding-top: 35%;
     }
 }
