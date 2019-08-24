@@ -95,3 +95,9 @@
 	margin-bottom: 3px;
 	margin-right: 1px;
 }
+
+@media (max-width: 1410px) {
+    .phone-number-small {
+		font-size : 20px;
+	}
+}

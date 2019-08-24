@@ -64,10 +64,10 @@
     border-radius: 8px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
     padding: 15px 15px;
-    width: 420px;
-    height: 480px;
+    width: 100%;
+    height: 100%;
 
-    margin: 0 auto;
+    margin: 0;
 }
 
 #contacts .btn-container {
@@ -88,6 +88,7 @@
     opacity: 0.9;
     border-radius: 8px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
 }
 
 #contacts .address-container {
@@ -95,6 +96,7 @@
     border-radius: 8px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
+    margin-top: 10px;
 }
 
 #contacts .address-container h2 {
@@ -205,7 +207,7 @@
     transform: rotate(45deg);
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     #contacts .map-container {
         width: 300px;
         height: 480px;
@@ -217,4 +219,4 @@
         width: 260px;
         height: 360px;
     }
-}
+} */

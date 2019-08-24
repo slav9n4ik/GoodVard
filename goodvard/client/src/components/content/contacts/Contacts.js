@@ -82,13 +82,15 @@ class Contacts extends Component {
           <div className="col-12">
             <div className="container-fluid">
               <div className="row justify-content-center">
-                <div className="col-xl-3 col-lg-5 col-12 m-3">
+                <div className="col-xl-4 col-lg-4 col-12">
                   <Map/>
                 </div>
                 <AddressBlock/>
-                <div className="col-xl-3 col-lg-5 m-3 contacts-item-container">
-                  <p>Запись</p>
-                  <div className="container-fluid">
+                <div className="col-xl-4 col-lg-4 ">
+                  <div className="container-fluid contacts-item-container">
+                    <div className="row justify-content-center">
+                      <p>Запись</p>
+                    </div>
                     <div className="row justify-content-center form-container">
                       <div className="col-6">
                         <label>Имя:
