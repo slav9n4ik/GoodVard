@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import "./discount.css";
 // import discountArray from "./discountArray.js";
 import discountImg1 from "../../../img/discount1.png";
-import discountImg2 from "../../../img/discount3.png";
+import discountImg2 from "../../../img/discount2.png";
 import discountImg3 from "../../../img/discount3.png";
 
 class Discount extends Component {
