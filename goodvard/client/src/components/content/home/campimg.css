@@ -32,14 +32,21 @@
 
 @media (max-width: 420px) {
     #home .campImg img{
-        padding-top: 20%;
-        left: -125%;
-        width: 360% !important;
-        max-width: 360% !important;
+        padding-top: 22%;
+        left: -18%;
+        width: 120% !important;
+        height: auto;
+        max-width: 120%;
     }
 
     #home .campImgBg {
-        width: 360%;
+        width: 120% !important;
         height: auto;
     }
 }
+
+@media (max-width: 350px) {
+    #home .campImg img{
+        padding-top: 27%;
+    }
+} 
