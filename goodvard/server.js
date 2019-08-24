@@ -1,6 +1,10 @@
 const express = require('express');
+const path = require('path');
 const bodyParser = require('body-parser');
 const transport = require('./mail-config.js');
+const https = require("https");
+const fs = require("fs");
+
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -60,10 +64,15 @@ let sendMailToClient = (data) => {
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname + "/client", 'build')));
 
 app.post('/api/sendEmail', (req, res) => {
   console.log("Post request: Send Email: ", req.body.data);
   sendMailToGoodVard(res, req.body.data) 
+});
+
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname + "/client", 'build', 'index.html'));
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
