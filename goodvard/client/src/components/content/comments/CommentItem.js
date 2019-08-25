@@ -27,7 +27,8 @@ class CommentItem extends Component {
     render() {
         return(
             <Fragment>
-                <div className="col-xl-3 col-md-6 comments-container-item">
+                {/* <div className="col-xl-3 col-md-6 comments-container-item"> */}
+                <div className="comments-container-item">
                     <h2>{this.props.name}</h2>
                     <h4>{this.props.expl}</h4>
                     <img src={this.props.src} alt=""/>

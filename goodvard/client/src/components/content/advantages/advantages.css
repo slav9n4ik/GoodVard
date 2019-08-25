@@ -3,12 +3,10 @@
 	background: #FA7F40;
     background: rgba(250, 127, 64, 1);
     margin: 20px;
-    min-width: 280px;
-    max-width: 310px;
-    height: 320px;
     width: auto;
+    height: 320px;
 	border-radius: 12px;
-	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 #advantages .adv-icon-container {

@@ -47,5 +47,9 @@
     #photo .button-lg {
         font-size: 16px;
     }
+
+    #photo .header-container p {
+        font-size: 32px;
+    }
 }
  
