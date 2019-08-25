@@ -35,7 +35,7 @@ class Navbar extends Component {
         event.preventDefault();
         let width = $(window).width();
         let offset;
-        width <= 960 ? offset = 60 : offset = 120;
+        width <= 960 ? offset = -50 : offset = 120;
         var id = $(this).attr("href"),
           top = $(id).offset().top - offset;
         $("body,html").animate({ scrollTop: top }, 1200);

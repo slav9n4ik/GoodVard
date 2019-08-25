@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import './results.css';
 import ResultItem from "./ResultItem.js";
 import resultArray from './resultsArray.js';
+import ResultItemEmpty from './ResultItemEmpty.js';
 
 class Results extends Component {
 
@@ -55,6 +56,14 @@ class Results extends Component {
       );
     });
 
+    let getEmptyComp = () => {
+      return(
+        <ResultItemEmpty key={0} text={"Матвейка, 7 лет, занимается в Goodvard с 2017 года." +
+            "Помимо навыков чтения, говорения и письма, имеет очень хороший словарный запас для своего возраста."+ 
+            "На видео продемонстрирован фрагмент мини-зачета, который проводится у каждого раз в 3 месяца."}/>
+      );
+    }
+
     // let columnsArr = [];
     // let rowArr = [];
     // for (let i = 0; i < ResultComps.length; i++) {
@@ -84,9 +93,8 @@ class Results extends Component {
             </div>
           </div>
           <Slider {...settings}>
-            {inViewport ? ResultComps : ""}
+            {inViewport ? ResultComps : getEmptyComp}
           </Slider>
-          {/* {inViewport ? ResultCompsRows : ""} */}
         </div>
       </Fragment>
     );

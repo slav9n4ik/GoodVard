@@ -10,16 +10,18 @@ class PhotoVideo extends Component {
       <ImageGallery 
         items={photoArray}
         showPlayButton={false}
+        lazyLoad={true}
       />
     );
   }
 
   render() {
-    const { inViewport, innerRef } = this.props;  
+    // const { inViewport, innerRef } = this.props;  
 
     return (
       <Fragment>
-        <div id="photo" className="container-fluid" ref={innerRef}>
+        {/* <div id="photo" className="container-fluid" ref={innerRef}> */}
+        <div id="photo" className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-sm-12 header-container">
               <p>Альбом</p>
@@ -28,7 +30,12 @@ class PhotoVideo extends Component {
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-12">
               <div className="container-fluid photo-container">
-                {inViewport ? this.getGallery() : ""}             
+                {/* {inViewport ? this.getGallery() : ""}              */}
+                <ImageGallery 
+                    items={photoArray}
+                    showPlayButton={false}
+                    lazyLoad={true}
+                  />
               </div>
             </div>
           </div>
