@@ -6,7 +6,7 @@ let ResultItemEmpty = props => {
     let style = {
         display: "block",
         width: "100px",
-        height: "300px"
+        height: "100px"
     }
 
   return (
