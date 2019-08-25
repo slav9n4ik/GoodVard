@@ -3,12 +3,6 @@ import { Fragment } from "react";
 
 let ResultItemEmpty = props => {
 
-    let style = {
-        display: "block",
-        width: "100px",
-        height: "100px"
-    }
-
   return (
     <div className="col-12">
       <div className="container-fluid results-container">
@@ -20,7 +14,6 @@ let ResultItemEmpty = props => {
           </div>
           <div className="row justify-content-center">
             <div className="col-12">
-                <div style={style}/>
             </div>
           </div>
         </Fragment>
