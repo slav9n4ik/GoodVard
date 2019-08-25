@@ -4,6 +4,19 @@ import HomeItemsComp from "./HoneItemsComp.js";
 import './home.css';
 
 class Home extends Component {
+
+  constructor(props) {
+    super(props);
+    this.noteButtonListener = this.noteButtonListener.bind(this);
+  }
+
+  noteButtonListener() {
+    document.getElementById("courses").scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+    });
+  }
+
   render() {
 
     let itemsComp = HomeItems.map(item => {
@@ -48,6 +61,7 @@ class Home extends Component {
             className="more-button phone-button d-lg-none"
             type="button"
             value={"Подробнее"}
+            onClick={this.noteButtonListener}
           />         
       </Fragment>
     );
