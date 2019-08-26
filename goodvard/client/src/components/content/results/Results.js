@@ -3,22 +3,21 @@ import Slider from "react-slick";
 import './results.css';
 import ResultItem from "./ResultItem.js";
 import resultArray from './resultsArray.js';
-import ResultItemEmpty from './ResultItemEmpty.js';
 
 class Results extends Component {
 
   render() {
-    const { inViewport, innerRef } = this.props;
+    //const { inViewport, innerRef } = this.props;
 
     var settings = {
       dots: true,
       swipeToSlide: true,
-      arrows: false,
+      //arrows: false,
       infinite: true,
-      autoplay: true,
-      speed: 1000,
-      autoplaySpeed: 5000,
-      cssEase: "linear",
+      //autoplay: true,
+      speed: 500,
+      // autoplaySpeed: 5000,
+      // cssEase: "linear",
       slidesToShow: 3,
       slidesToScroll: 1,
       initialSlide: 0,
@@ -56,14 +55,6 @@ class Results extends Component {
       );
     });
 
-    let getEmptyComp = () => {
-      return(
-        <ResultItemEmpty key={0} text={"Матвейка, 7 лет, занимается в Goodvard с 2017 года." +
-            "Помимо навыков чтения, говорения и письма, имеет очень хороший словарный запас для своего возраста."+ 
-            "На видео продемонстрирован фрагмент мини-зачета, который проводится у каждого раз в 3 месяца."}/>
-      );
-    }
-
     // let columnsArr = [];
     // let rowArr = [];
     // for (let i = 0; i < ResultComps.length; i++) {
@@ -86,14 +77,16 @@ class Results extends Component {
 
     return (
       <Fragment>
-        <div id="results" className="container-fluid" ref={innerRef}>
+        {/* <div id="results" className="container-fluid" ref={innerRef}> */}
+        <div id="results" className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-sm-12 header-container">
               <p>Наши результаты</p>
             </div>
           </div>
           <Slider {...settings}>
-            {inViewport ? ResultComps : getEmptyComp}
+            {ResultComps}
+            {/* {inViewport ? ResultComps : ""} */}
           </Slider>
         </div>
       </Fragment>

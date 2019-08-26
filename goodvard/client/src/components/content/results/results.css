@@ -45,12 +45,28 @@
 }
 
 #results .slick-dots li button:before {
-    font-size: 10px;
+    font-size: 14px;
     color: #A13323;
+}
+
+#results .slick-prev {
+    left: -15px;
+    top: 40%;
+}
+
+#results .slick-next {
+    right: -15px;
+    top: 40%;
 }
 
 @media (max-width: 768px) {
     #results .header-container p {
         font-size: 32px;
+    }
+}
+
+@media (max-width: 360px) {
+    #results .results-container p{
+        font-size: 18px;
     }
 }

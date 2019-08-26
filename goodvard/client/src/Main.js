@@ -14,7 +14,7 @@ import Footer from "./components/footer/Footer.js";
 import handleViewport from 'react-in-viewport';
 
 const ViewportResults = handleViewport(Results);
-const ViewportPhoto = handleViewport(PhotoVideo);
+//const ViewportPhoto = handleViewport(PhotoVideo);
 
 class Main extends Component {
   render() {
