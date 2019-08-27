@@ -7,17 +7,13 @@ import resultArray from './resultsArray.js';
 class Results extends Component {
 
   render() {
-    //const { inViewport, innerRef } = this.props;
 
     var settings = {
       dots: true,
       swipeToSlide: true,
-      //arrows: false,
+      lazyLoad: true,
       infinite: true,
-      //autoplay: true,
       speed: 500,
-      // autoplaySpeed: 5000,
-      // cssEase: "linear",
       slidesToShow: 3,
       slidesToScroll: 1,
       initialSlide: 0,
@@ -55,29 +51,8 @@ class Results extends Component {
       );
     });
 
-    // let columnsArr = [];
-    // let rowArr = [];
-    // for (let i = 0; i < ResultComps.length; i++) {
-    //   columnsArr.push(ResultComps[i]);
-    //   if (columnsArr.length === 2) {
-    //     rowArr.push(columnsArr);
-    //     columnsArr = [];
-    //   }
-    // }
-
-    // let id = 0;
-    // let ResultCompsRows = rowArr.map(item => {
-    //   id++;
-    //   return(
-    //     <div key={id} className="row justify-content-center">
-    //         {item}
-    //     </div>
-    //   );
-    // });
-
     return (
       <Fragment>
-        {/* <div id="results" className="container-fluid" ref={innerRef}> */}
         <div id="results" className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-sm-12 header-container">
@@ -86,7 +61,6 @@ class Results extends Component {
           </div>
           <Slider {...settings}>
             {ResultComps}
-            {/* {inViewport ? ResultComps : ""} */}
           </Slider>
         </div>
       </Fragment>
