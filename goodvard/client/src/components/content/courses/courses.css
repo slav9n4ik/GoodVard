@@ -78,15 +78,16 @@
 
 #courses .explanation-container {
     margin-top: 40px;
+    padding: 0 10px 0 40px;
     text-align: center;
 }
 
 #courses .explanation-container p{
-    text-align: left;
+    text-align: center;
     font-family : Trebuchet MS;
 	font-weight : bold;
     font-size : 22px;
-    text-indent: 60px;
+    text-indent: 30px;
 
 	color : #FDDC70;
 	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
@@ -100,6 +101,7 @@
     padding-bottom: 5px;  
     margin-left: 15%; 
     margin-bottom: 20px;
+    vertical-align: middle;
 }
 
 #courses .explanation-container-points h5{
@@ -188,6 +190,13 @@
         padding-bottom: 10px;
     }
 
+    #courses .explanation-container {
+        padding:0 10px 10px 10px;
+    }
+    
+    #courses .explanation-container p{
+        font-size: 16px;
+    }
     #courses .explanation-container-points {
         margin-left: 0;
         text-align: center;

@@ -9,7 +9,7 @@ let CourseItem = props => {
   }
 
   return (
-    <div className="col-xl-2 col-md-3">
+    <div className="col-xl-3 col-md-3">
       <div className={"item-container" + active} onClick={clickOnContainer}>
         <h5>{props.item.title}</h5>
         <p>{props.item.years}</p>

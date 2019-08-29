@@ -34,12 +34,12 @@ class Courses extends Component {
       <Fragment>
         <div id="courses" className="container-fluid">
           <div className="row justify-content-center">
-            <div className="col-sm-12 header-container">
+            <div className="col-xl-10 col-md-12 header-container">
               <p>Программы обучения</p>
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-sm-12">
+            <div className="col-xl-10 col-md-12">
               <div className="container-fluid course-container d-none d-md-block mb-4">
                 <div className="row justify-content-center mb-3">
                   {courseItems}

@@ -14,12 +14,8 @@
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
     padding-top: 20px;
     padding-bottom: 10px;
-    margin: 0 5px 30px 5px;
+    margin: 0 15px 30px 15px;
     text-align: center;
-	
-	/* height: 100%;
-	width: 100%;
-	background-color: darken(white, 20%); */
 }
 
 .comments-container-item img{
@@ -67,6 +63,16 @@
 #comments .slick-dots li button:before {
     font-size: 10px;
     color: #A13323;
+}
+
+#comments .slick-prev {
+    left: -15px;
+    top: 40%;
+}
+
+#comments .slick-next {
+    right: -15px;
+    top: 40%;
 }
 
 @media (max-width: 768px) {

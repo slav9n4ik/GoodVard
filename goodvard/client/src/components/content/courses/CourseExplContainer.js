@@ -35,7 +35,7 @@ let CourseExplContainer = props => {
 
   return (
     <div className="row justify-content-center">
-      <div className="col-xl-4 col-md-6 d-none d-md-block">
+      <div className="col-xl-6 col-md-6 d-none d-md-block">
         <div className="explanation-container">
           {explanationItems}
           <input
@@ -46,7 +46,7 @@ let CourseExplContainer = props => {
           />
         </div>
       </div>
-      <div className="col-xl-4 col-md-6">
+      <div className="col-xl-6 col-md-6">
         <div className="explanation-container-points">
           <h5>Особенности курса</h5>
           <ul className="fa-ul">{explanationPoints}</ul>
