@@ -45,27 +45,6 @@
 	margin-bottom: 10px;
 }
 
-/* Кнопка записи в большом заголовке */
-.note-button
-{
-	background-color: #FF0700;
-	border: solid;
-	border-width: 0px;
-	border-radius: 6px;
-	padding: 10px;
-	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.50);
-
-	font-family : Trebuchet MS;
-	font-weight : bold;
-	font-size : 14px;
-	text-transform : uppercase;
-	color : #FAF2F3;
-	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.50);
-	
-	display: inline-block;
-	margin-bottom: 10px;
-}
-
 /* Разделяющая линия в большом заголовке */
 .line-header
 {

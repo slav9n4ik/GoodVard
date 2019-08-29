@@ -19,6 +19,38 @@
     background-color: #FDDC70;
 }
 
+/* Основная Кнопка */
+.note-button
+{
+	background-color: #FF0700;
+	border: solid;
+	border-width: 0px;
+	border-radius: 6px;
+	padding: 10px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.50);
+
+	font-family : Trebuchet MS;
+	font-weight : bold;
+	font-size : 14px;
+	text-transform : uppercase;
+	color : #FAF2F3;
+	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.50);
+	
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.note-button:hover {
+    -webkit-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    
+    box-shadow:
+    1px 1px #A13323,
+    2px 2px #A13323;
+    -webkit-transform: translateX(-3px);
+    transform: scale(0.98), translateX(-3px);
+}
+
 @media (max-width: 960px) {
     .main-container {
         margin-top: 60px !important;
