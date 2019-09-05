@@ -14,14 +14,40 @@
 	border-radius : 12px;
     box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
     margin: 5px 15px 25px 15px;
+    padding: 7px;
     
     text-align: center;
+}
+
+#about .slick-dots{
+    margin-bottom: 25px;
+}
+
+#about .slick-dots li button:before {
+    font-size: 10px;
+    color: #A13323;
+}
+
+#about .slick-prev {
+    left: -15px;
+    top: 50%;
+}
+
+#about .slick-next {
+    right: -15px;
+    top: 50%;
 }
                         
 #about .img-item {
     margin-top: 10px;
-	width : 245px;
-	height : 245px;
+	width: 245px;
+    height: 245px;
+    margin: 0 auto;
+}
+
+#about .img-border {
+    border: solid 5px;
+    border-color: white;
 }
 
 #about .about-container-item h3{

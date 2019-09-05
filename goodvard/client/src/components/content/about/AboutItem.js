@@ -30,14 +30,14 @@ class AboutItem extends Component {
   componentDidMount() {
     let w = window.innerWidth;
     let text = "";
-    if (w < 1024) {
-      if (this.props.text.length > 170) {
-        text = this.props.text.substring(0, 170);
+   // if (w < 1024) {
+      if (this.props.text.length > 270) {
+        text = this.props.text.substring(0, 270);
         text = text + "..."; 
       }
-    } else {
-        text = this.props.text;
-    }
+    //} else {
+    //    text = this.props.text;
+    //}
     this.setState({
         text: text
     });
@@ -45,13 +45,15 @@ class AboutItem extends Component {
 
   render() {
     return (
-      <div className="col-md-5 col-12 about-container-item">
+      // <div className="col-md-5 col-12 about-container-item">
+      <div className="about-container-item">
         <img src={this.props.src} className="img-item" alt="" />
         <h3>{this.props.name}</h3>
         <h5>{this.props.expl}</h5>
         <p>{this.state.text}</p>
         <input
-          className="d-lg-none note-button btn-margin"
+          //className="d-lg-none note-button btn-margin"
+          className="note-button btn-margin"
           type="button"
           value={this.state.btnValue}
           onClick={this.moreBtnHandler}
