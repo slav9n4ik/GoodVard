@@ -48,7 +48,7 @@
 
 /* Text active */
 #navbar .active>.hover {
-    background-color: #FDDC70;
+    background-color: #A13323;
     width: 75%;
     height: 4px;
     margin: 0 auto;
@@ -73,14 +73,18 @@
         text-align: center;
     }
 
+    #navbar .active a {
+        color: #A13323 !important;
+    }
+
     #navbar .active>.hover {
         width: 40%;  
-        background-color: #A13323;  
+        background-color: #FA7F40;  
     }
 
     /* Text hover */
     #navbar a:hover {
-        color: #A13323;
+        color: #FA7F40;
     }
 
     #navbar .navbar-brand {
