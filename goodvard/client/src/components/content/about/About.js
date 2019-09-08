@@ -14,7 +14,7 @@ class About extends Component {
       speed: 1500,
       slidesToShow: 3,
       slidesToScroll: 1,
-      initialSlide: 0,
+      initialSlide: 2,
       responsive: [
         {
           breakpoint: 1140,
