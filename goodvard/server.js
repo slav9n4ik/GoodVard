@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
-const transport = require('./mail-config.js');
+const transport = require('./mail-config-pass.js');
 const https = require("https");
 const fs = require("fs");
 
