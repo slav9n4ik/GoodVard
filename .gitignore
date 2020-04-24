@@ -4,7 +4,6 @@
 /goodvard/client/node_modules
 /goodvard/node_modules
 /.pnp
-/goodvard/mail-config-pass.js
 
 public/index.html
 

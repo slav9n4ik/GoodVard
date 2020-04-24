@@ -1,12 +1,3 @@
-#photo .header-container{
-    font-family : Trebuchet MS;
-	font-weight: bold;
-	font-size: 50px;
-	color: #A13323;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
 #photo .photo-container {
     background: #A13323;
 	border-radius: 8px;
@@ -25,7 +16,7 @@
 
 #photo .button-lg {
     text-align: center;
-    font-size : 20px;
+    font-size : 14px;
     margin-bottom: 20px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
@@ -36,20 +27,5 @@
 }
 #photo  .button-container {
     text-align: center;
-}
-@media (max-width: 1024px) {
-    #photo .button-lg {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 768px) {
-    #photo .button-lg {
-        font-size: 16px;
-    }
-
-    #photo .header-container p {
-        font-size: 32px;
-    }
 }
  

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000/",
-  "dependencies": {
+  "devDependencies": {
     "bootstrap": "^4.3.1",
     "immutable": "^4.0.0-rc.12",
     "jquery": "^3.4.1",

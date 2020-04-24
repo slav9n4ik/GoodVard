@@ -3,7 +3,6 @@ import "./navbar.css";
 import LogoBee from "../../icons/bee-logo .svg";
 import GoodvardLogo from "../../icons/goodvard.svg";
 import $ from "jquery";
-//import 'jquery.appear';
 import navsArray from "./NavsArray.js";
 import Navs from "./Navs.js";
 
@@ -15,7 +14,6 @@ class Navbar extends Component {
     };
     this.clickHandler = this.clickHandler.bind(this);
     this.scrollSmooth = this.scrollSmooth.bind(this);
-    //this.appearComponentListener = this.appearComponentListener.bind(this);
   }
 
   clickHandler(id) {
@@ -35,7 +33,7 @@ class Navbar extends Component {
         event.preventDefault();
         let width = $(window).width();
         let offset;
-        width <= 960 ? offset = -50 : offset = 120;
+        width <= 960 ? offset = -50 : offset = 100;
         var id = $(this).attr("href"),
           top = $(id).offset().top - offset;
         $("body,html").animate({ scrollTop: top }, 1200);

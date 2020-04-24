@@ -1,13 +1,4 @@
-#results .header-container{
-    font-family : Trebuchet MS;
-	font-weight: bold;
-	font-size: 50px;
-	color: #A13323;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-                            
-#results .results-container{
+#results .results-container {
     background: #A13323;
     opacity: 0.9;
 	border-radius: 8px;
@@ -18,10 +9,10 @@
     text-align: center;
 }
                                 
-#results .results-container p{
-    font-family : Trebuchet MS;
+#results .results-container p {
+    font-family: Trebuchet MS, serif;
 	font-weight : bold;
-	font-size : 22px;
+	font-size : 16px;
 	color : #FDDC70;
     text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.55);
     
@@ -67,6 +58,6 @@
 
 @media (max-width: 360px) {
     #results .results-container p{
-        font-size: 18px;
+        font-size: 16px;
     }
 }

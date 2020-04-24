@@ -34,11 +34,10 @@
 /* Номер телефона в больщом заголовке */
 .phone-number
 {
-	font-family : Trebuchet MS;
+	font-family: Trebuchet MS, serif;
 	font-weight : bold;
 	font-size : 26px;
 	color : #000000;
-	color : rgb(0, 0, 0);
 	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
 
 	display: inline-block;

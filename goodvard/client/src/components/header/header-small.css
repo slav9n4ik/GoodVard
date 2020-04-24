@@ -27,9 +27,9 @@
 
 /* Телефонный номер в маленьком заголовке */
 .phone-number-small {
-	font-family : Trebuchet MS;
+	font-family: Trebuchet MS, serif;
 	font-weight : bold;
-	font-size : 24px;
+	font-size : 18px;
 	color : #231F20;
 	text-shadow : 1px 1px 4px rgba(0, 0, 0, 0.5);
 
@@ -48,7 +48,7 @@
 	box-shadow : 1px 1px 4px rgba(0, 0, 0, 0.25);
 
 	display: inline-block;
-	margin: 0px 15px 0px 15px;
+	margin: 0 15px;
 }
 
 /* Стили иконок */
@@ -78,13 +78,12 @@
 /* Кнопка записаться в мелком заголовке */
 .note-button-small {
 	background-color: #FF0700;
-	border: solid;
 	border-width: 0px;
 	border-radius: 6px;
 	padding: 8px;
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.50);
 
-	font-family : Trebuchet MS;
+	font-family: Trebuchet MS, serif;
 	font-weight : bold;
 	font-size : 14px;
 	text-transform : uppercase;
@@ -94,10 +93,4 @@
 	display: inline-block;
 	margin-bottom: 3px;
 	margin-right: 1px;
-}
-
-@media (max-width: 1410px) {
-    .phone-number-small {
-		font-size : 20px;
-	}
 }

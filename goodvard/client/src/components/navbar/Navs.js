@@ -4,11 +4,11 @@ let Navs = (props) => {
 
   let onClick = () => {
     props.clickHandler(props.id, props.href)
-  }
+  };
 
   let isActive = false;
   if (props.activeId === props.id)
-    isActive = true
+    isActive = true;
  
   return (
     <li className={`nav-item ${isActive ? "active" : ""}`}>

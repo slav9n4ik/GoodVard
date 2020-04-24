@@ -26,12 +26,12 @@ let CourseExplContainer = props => {
   });
 
   let noteButtonListener = () => {
-    console.log("Click Courses")
+    console.log("Click Courses");
     document.getElementById("contacts").scrollIntoView({
           behavior: 'smooth',
           block: 'end'
     });
-  }
+  };
 
   return (
     <div className="row justify-content-center">

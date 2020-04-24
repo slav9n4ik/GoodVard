@@ -5,17 +5,12 @@ import CommentItem from './CommentItem.js';
 import commentsArray from './CommentsArray.js';
 
 class Comments extends Component {  
-  render() {  
-    
-    var settings = {
+  render() {
+    let settings = {
       dots: true,
       swipeToSlide: true,
-      //arrows: false,
       infinite: true,
-      //autoplay: true,
       speed: 1500,
-      // autoplaySpeed: 5000,
-      // cssEase: "linear",
       slidesToShow: 3,
       slidesToScroll: 1,
       initialSlide: 0,
@@ -64,20 +59,15 @@ class Comments extends Component {
       <Fragment>
       <div id="comments" className="container-fluid">
         <div className="row justify-content-center">
-          <div className="col-sm-12 comments-container">
+          <div className="col-sm-12 comments-container header-container">
             <p>Отзывы</p>
           </div>
         </div>
         <div className="row justify-content-center">
           <div className="col-12">
-            {/* <div className="container-fluid"> */}
-              {/* <div className="row justify-content-center"> */}
-                <Slider {...settings}>
-                  {commentsComp}
-                </Slider>
-                  {/* {commentsComp}  */}
-              {/* </div> */}
-            {/* </div> */}
+              <Slider {...settings}>
+                {commentsComp}
+              </Slider>
           </div>
         </div>
       </div> 

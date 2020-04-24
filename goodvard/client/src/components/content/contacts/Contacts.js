@@ -15,7 +15,7 @@ class Contacts extends Component {
       isHideAlertSuccess: true,
       isHideAlertError: true,
       isDisable: true
-    }
+    };
     this.sendMailHandler = this.sendMailHandler.bind(this);
     this.formHandler = this.formHandler.bind(this);
     this.checkboxHandler = this.checkboxHandler.bind(this);
@@ -74,7 +74,7 @@ class Contacts extends Component {
       <Fragment>
       <div id="contacts" className="container-fluid">
         <div className="row justify-content-center">
-          <div className="col-sm-12 contacts-header">
+          <div className="col-sm-12 contacts-header header-container">
             <p>Контакты</p>
           </div>
         </div>

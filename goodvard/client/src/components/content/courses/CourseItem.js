@@ -6,7 +6,7 @@ let CourseItem = props => {
   let clickOnContainer = () => {
     let id = props.item.id;
     props.clickOnContainerHandler(id);
-  }
+  };
 
   return (
     <div className="col-xl-3 col-md-3">

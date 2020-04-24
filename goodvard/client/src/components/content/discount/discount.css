@@ -1,12 +1,3 @@
-#discount .header-container {
-    font-family : Trebuchet MS;
-	font-weight: bold;
-	font-size: 50px;
-	color: #A13323;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
 #discount .discount-container {
     background: #A13323;
 	border-radius: 5px;

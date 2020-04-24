@@ -1,12 +1,3 @@
-#contacts .contacts-header {
-    font-family: Trebuchet MS;
-    font-weight: bold;
-    font-size: 50px;
-    color: #A13323;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
 #contacts .contacts-item-container p {
     font-family: Trebuchet MS;
     font-weight: bold;
@@ -79,7 +70,7 @@
     font-family: Trebuchet MS;
     font-weight: bold;
     text-transform: inherit;
-    font-size: 20px;
+    font-size: 16px;
     color: red;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
 }

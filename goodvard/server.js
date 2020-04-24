@@ -1,9 +1,7 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
-const transport = require('./mail-config-pass.js');
-const https = require("https");
-const fs = require("fs");
+const transport = require('./mail-config.js');
 
 
 const app = express();
@@ -16,7 +14,7 @@ let mailOptionsToClient = {
   subject: "Сообщение с формы обратной связи в GoodVard", // Subject line
   text: "✔" // plaintext body
   //html: "<b>Hello world ✔</b>" // html body
-}
+};
 
 let mailOptionsToGoodVard = {
   from: "goodvardschool@yandex.ru", // sender address
@@ -24,7 +22,7 @@ let mailOptionsToGoodVard = {
   subject: "Сообщение с формы обратной связи в GoodVard", // Subject line
   text: "✔" // plaintext body
   //html: "<b>Hello world ✔</b>" // html body
-}
+};
 
 let sendMailToGoodVard = (ajaxResponse, data) => {
   let msg = "Имя: " + data.name +"\n" + "Телефон: " + data.phone + "\n" +
@@ -43,7 +41,7 @@ let sendMailToGoodVard = (ajaxResponse, data) => {
       ajaxResponse.send("success");
     }
   });
-}
+};
 
 let sendMailToClient = (data) => {
   let msg = "Добрый день, " + data.name + ". Ваше сообщение доставлено."+
@@ -60,7 +58,7 @@ let sendMailToClient = (data) => {
       console.log("Message sent: " + response.message);
     }
   });
-}
+};
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

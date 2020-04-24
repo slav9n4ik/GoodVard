@@ -6,6 +6,6 @@ module.exports = nodemailer.createTransport({
     port: 465, // port for secure SMTP
     auth: {
         user: 'goodvardschool@yandex.ru',
-        pass: ''
+        pass: '#PASSWORD#'
     }
   });

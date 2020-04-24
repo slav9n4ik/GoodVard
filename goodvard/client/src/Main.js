@@ -14,7 +14,6 @@ import Footer from "./components/footer/Footer.js";
 import handleViewport from 'react-in-viewport';
 
 const ViewportResults = handleViewport(Results);
-//const ViewportPhoto = handleViewport(PhotoVideo);
 
 class Main extends Component {
   render() {
@@ -22,37 +21,34 @@ class Main extends Component {
       <Fragment>
         <main className="container-fluid main-container">
           <div className="row justify-content-center">
-            <Home />
+            <Home/>
           </div>
           <div id="advantages" className="row justify-content-center bee-bg">
             <Advantages />
           </div>
           <div className="row yellow-bg">
-            <Courses />
+            <Courses/>
           </div>
           <div className="row bee-bg">
             <Discount />
           </div>
           <div className="row yellow-bg">
-            <ViewportResults />
+            <ViewportResults/>
           </div>
           <div className="row bee-bg">
-            {/* <ViewportPhoto onEnterViewport={() => console.log('enter')} 
-                              onLeaveViewport={() => console.log('leave')}/> */}
-            {/* <ViewportPhoto/> */}
             <PhotoVideo/>
           </div>
           <div className="row yellow-bg">
-            <About />
+            <About/>
           </div>
           <div className="row bee-bg">
-            <Comments />
+            <Comments/>
           </div>
           <div className="row yellow-bg">
-            <Contacts />
+            <Contacts/>
           </div>
           <div className="row footer-bg">
-            <Footer />
+            <Footer/>
           </div>
         </main>
       </Fragment>

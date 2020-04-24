@@ -10,7 +10,7 @@ class Courses extends Component {
     super(props);
     this.state = { 
       activeId: 0
-    }
+    };
     this.clickOnContainerHandler = this.clickOnContainerHandler.bind(this);
   }
 

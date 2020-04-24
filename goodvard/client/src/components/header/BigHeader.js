@@ -12,7 +12,7 @@ let BigHeader = () => {
           behavior: 'smooth',
           block: 'start'
     });
-  }
+  };
 
     return(
         <div className="container-fluid d-none d-lg-block">

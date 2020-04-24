@@ -30,14 +30,10 @@ class AboutItem extends Component {
   componentDidMount() {
     let w = window.innerWidth;
     let text = "";
-   // if (w < 1024) {
       if (this.props.text.length > 270) {
         text = this.props.text.substring(0, 270);
-        text = text + "..."; 
+        text = text + "...";
       }
-    //} else {
-    //    text = this.props.text;
-    //}
     this.setState({
         text: text
     });

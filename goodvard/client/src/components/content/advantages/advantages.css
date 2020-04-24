@@ -2,16 +2,15 @@
 {
 	background: #FA7F40;
     background: rgba(250, 127, 64, 1);
-    margin: 20px;
+    margin: 15px;
     width: auto;
-    height: 320px;
+    height: 240px;
 	border-radius: 12px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 #advantages .adv-icon-container {
-    margin: 0 auto;
-    margin-top: 25px;
+    margin: 10px auto;
 	width: 125px;
     height: 125px;
 }
@@ -23,19 +22,21 @@
 }
 
 #advantages h3 {
-    font-family: Trebuchet MS;
+    font-family: Trebuchet MS, serif;
 	font-weight: bold;
-	font-size: 26px;
+	font-size: 18px;
 	text-transform: uppercase;
 	color: #FDDC70;
+    margin: 2px 2px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.55);
 }
 
 #advantages p {
-    font-family: Trebuchet MS;
+    font-family: Trebuchet MS, serif;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 14px;
 	color: #F2F2F2;
+    margin: 10px 20px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -45,7 +46,7 @@
 }
 
 #advantages .video-button {
-    font-size: 22px !important;
+    font-size: 16px !important;
 }
 
 #advantages .video-button:hover {
