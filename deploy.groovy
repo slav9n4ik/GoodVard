@@ -31,19 +31,19 @@ node {
         }
     }
 
-    stage('Copy image') {
-        withCredentials([usernamePassword(credentialsId: 'goodvard-host', passwordVariable: 'password', usernameVariable: 'userName')]) {
-            sh "./copy.sh"
-            sh "expect \"root@176.99.11.66's password: \""
-            sh "send ${password}"
-        }
-    }
+    // stage('Copy image') {
+    //     withCredentials([usernamePassword(credentialsId: 'goodvard-host', passwordVariable: 'password', usernameVariable: 'userName')]) {
+    //         sh "scp root@176.99.11.66:/opt/goodvard-image.tar goodvard-image.tar"
+    //         sh "expect \"root@176.99.11.66's password: \""
+    //         sh "send ${password}"
+    //     }
+    // }
 
     stage('Start containers') {
         withCredentials([usernamePassword(credentialsId: 'goodvard-host', passwordVariable: 'password', usernameVariable: 'userName')]) {
             remote.user = userName
             remote.password = password
-
+            sshPut remote: remote, from: 'goodvard-image.tar', into: '/opt/'
             sshScript remote: remote, script: 'start.sh'
         }
     }

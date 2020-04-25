@@ -4,4 +4,5 @@
 cd /opt
 docker load -i goodvard-image.tar
 docker rm -f goodvard
-docker run -d --name goodvard -p 5000:5000 slav9n4ik/goodvard:latest
+docker run -d --name goodvard-latest -p 5000:5000 slav9n4ik/goodvard:latest
+
